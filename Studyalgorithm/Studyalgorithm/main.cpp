@@ -1,6 +1,8 @@
 #include <iostream>
+#include "CircleQueue.h"
 
-int main(void)
+
+int main()
 {
 
 }
