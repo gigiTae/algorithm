@@ -1,18 +1,25 @@
 #pragma once
 
-constexpr auto MAXSIZE = 8;;
+constexpr auto MAXSIZE = 4;;
+
 
 class CircleQueue
 {
 public:
-	int front;
-	int rear;
-	int size;
-	int* values;
+	int Front;   // 앞
+	int Rear;    // 뒤
+	int Size;    // 큐 사이즈
+	int* Values; 
+
+public:
+	int  Index(int num);
+	bool empty();
+	bool isFull();
+	void pop();
+	void push(int num);
 
 public:
 	CircleQueue();
 	~CircleQueue();
 
 };
-
