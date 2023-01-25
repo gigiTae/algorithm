@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UpDown.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />

@@ -2,14 +2,27 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="CircleQueue.cpp" />
+    <ClCompile Include="CircleQueue.cpp">
+      <Filter>알고리즘\CircleQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDown.cpp">
+      <Filter>코딩테스트</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
       <UniqueIdentifier>{8ea4609e-73f5-4437-b068-d50f7c3451b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘\CircleQueue">
+      <UniqueIdentifier>{fd0c35fb-c639-4240-b40b-31d5db0b8083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트">
+      <UniqueIdentifier>{45f73f15-21a2-4c9f-81ab-317af4ae3f1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CircleQueue.h" />
+    <ClInclude Include="CircleQueue.h">
+      <Filter>알고리즘\CircleQueue</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
