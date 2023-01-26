@@ -130,7 +130,12 @@
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThreeDice.cpp" />
     <ClCompile Include="UpDown.cpp" />
+    <ClCompile Include="곱셈.cpp" />
+    <ClCompile Include="단어의개수.cpp" />
+    <ClCompile Include="오븐시계.cpp" />
+    <ClCompile Include="정수N개의합.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />

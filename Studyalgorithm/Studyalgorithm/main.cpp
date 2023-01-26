@@ -1,16 +1,12 @@
-#include <iostream>
+
+#include <iostream>      
 
 
-int main(void)
+using namespace std;
+
+int main()
 {
-	std::wstring str;
-	std::wcin >> str;
-	
-	int world = 0;
 
-	for (int i = 0; i < str.size(); ++i)
-	{
-	}
-
-	return 0;
+    return 0;
 }
+
