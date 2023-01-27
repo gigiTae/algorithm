@@ -135,7 +135,9 @@
     <ClCompile Include="곱셈.cpp" />
     <ClCompile Include="나누기소수점.cpp" />
     <ClCompile Include="단어의개수.cpp" />
+    <ClCompile Include="빠른A+B.cpp" />
     <ClCompile Include="알람시계.cpp" />
+    <ClCompile Include="영수증.cpp" />
     <ClCompile Include="오븐시계.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
   </ItemGroup>

@@ -32,6 +32,12 @@
     <ClCompile Include="알람시계.cpp">
       <Filter>코딩테스트</Filter>
     </ClCompile>
+    <ClCompile Include="영수증.cpp">
+      <Filter>코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="빠른A+B.cpp">
+      <Filter>코딩테스트</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
