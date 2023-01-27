@@ -28,3 +28,22 @@
 //    return 0;
 //}
 //
+
+//
+//#include <iostream>      
+//
+//
+//using namespace std;
+//
+//int main()
+//{
+//    int num = 0;
+//    cin >> num;
+//    for (int i = 1; i <= 9; ++i)
+//    {
+//        int result = num * i;
+//        cout << num << " * " << i << " = " << result << endl;
+//    }
+//    return 0;
+//}
+//
