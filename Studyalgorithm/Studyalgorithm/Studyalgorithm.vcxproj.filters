@@ -50,6 +50,15 @@
     <ClCompile Include="최댓값.cpp">
       <Filter>코딩테스트\배열</Filter>
     </ClCompile>
+    <ClCompile Include="과제_안_내신_분.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="나머지.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="평균.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

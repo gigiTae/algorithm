@@ -135,7 +135,9 @@
     <ClCompile Include="X보다_작은_수.cpp" />
     <ClCompile Include="개수세기.cpp" />
     <ClCompile Include="곱셈.cpp" />
+    <ClCompile Include="과제_안_내신_분.cpp" />
     <ClCompile Include="나누기소수점.cpp" />
+    <ClCompile Include="나머지.cpp" />
     <ClCompile Include="단어의개수.cpp" />
     <ClCompile Include="빠른A+B.cpp" />
     <ClCompile Include="알람시계.cpp" />
@@ -144,6 +146,7 @@
     <ClCompile Include="정수N개의합.cpp" />
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소_최대.cpp" />
+    <ClCompile Include="평균.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />
