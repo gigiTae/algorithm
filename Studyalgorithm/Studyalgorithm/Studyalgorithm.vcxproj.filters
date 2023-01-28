@@ -59,6 +59,12 @@
     <ClCompile Include="평균.cpp">
       <Filter>코딩테스트\배열</Filter>
     </ClCompile>
+    <ClCompile Include="OX퀴즈.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="평균은_넘겠지.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

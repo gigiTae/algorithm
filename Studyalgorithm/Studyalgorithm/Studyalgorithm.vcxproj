@@ -130,6 +130,7 @@
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OX퀴즈.cpp" />
     <ClCompile Include="ThreeDice.cpp" />
     <ClCompile Include="UpDown.cpp" />
     <ClCompile Include="X보다_작은_수.cpp" />
@@ -147,6 +148,7 @@
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소_최대.cpp" />
     <ClCompile Include="평균.cpp" />
+    <ClCompile Include="평균은_넘겠지.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />

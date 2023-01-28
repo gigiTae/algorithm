@@ -31,6 +31,7 @@
 //
 //    cout << MinimumNum << " " << MaxNum;
 //
+//    delete[] pNum;
 //
 //    return 0;
 //}
