@@ -5,39 +5,6 @@
     <ClCompile Include="CircleQueue.cpp">
       <Filter>알고리즘\CircleQueue</Filter>
     </ClCompile>
-    <ClCompile Include="UpDown.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="ASCII.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreeDice.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="정수N개의합.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="오븐시계.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="단어의개수.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="곱셈.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="나누기소수점.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="알람시계.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="영수증.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
-    <ClCompile Include="빠른A+B.cpp">
-      <Filter>코딩테스트</Filter>
-    </ClCompile>
     <ClCompile Include="개수세기.cpp">
       <Filter>코딩테스트\배열</Filter>
     </ClCompile>
@@ -65,6 +32,45 @@
     <ClCompile Include="평균은_넘겠지.cpp">
       <Filter>코딩테스트\배열</Filter>
     </ClCompile>
+    <ClCompile Include="달팽.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="정수N개의합.cpp">
+      <Filter>코딩테스트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCII.cpp">
+      <Filter>코딩테스트\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="단어의개수.cpp">
+      <Filter>코딩테스트\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="오븐시계.cpp">
+      <Filter>코딩테스트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="알람시계.cpp">
+      <Filter>코딩테스트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDice.cpp">
+      <Filter>코딩테스트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="나누기소수점.cpp">
+      <Filter>코딩테스트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="곱셈.cpp">
+      <Filter>코딩테스트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="빠른A+B.cpp">
+      <Filter>코딩테스트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="영수증.cpp">
+      <Filter>코딩테스트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="한수.cpp">
+      <Filter>코딩테스트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfNumber.cpp">
+      <Filter>코딩테스트\함수</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -78,6 +84,21 @@
     </Filter>
     <Filter Include="코딩테스트\배열">
       <UniqueIdentifier>{f62d6edc-fc50-4d02-928d-d3b2412fa7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\기본수학1">
+      <UniqueIdentifier>{9ab4f649-61e1-4eb4-8d48-aee415b17f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\함수">
+      <UniqueIdentifier>{44259bc1-92b4-452f-ab2f-a3dfa7811e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\문자열">
+      <UniqueIdentifier>{8ffd3ff7-d922-4cd1-8a02-f3c33b803e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\조건문">
+      <UniqueIdentifier>{c3953393-e05c-4085-9e8b-15ddf4d1e034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\반복문">
+      <UniqueIdentifier>{ff9f431e-2339-4c94-a9f6-f6338535ac4f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
