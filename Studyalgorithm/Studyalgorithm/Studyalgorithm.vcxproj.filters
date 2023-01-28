@@ -38,6 +38,18 @@
     <ClCompile Include="빠른A+B.cpp">
       <Filter>코딩테스트</Filter>
     </ClCompile>
+    <ClCompile Include="개수세기.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="X보다_작은_수.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="최소_최대.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값.cpp">
+      <Filter>코딩테스트\배열</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -48,6 +60,9 @@
     </Filter>
     <Filter Include="코딩테스트">
       <UniqueIdentifier>{45f73f15-21a2-4c9f-81ab-317af4ae3f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\배열">
+      <UniqueIdentifier>{f62d6edc-fc50-4d02-928d-d3b2412fa7e9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

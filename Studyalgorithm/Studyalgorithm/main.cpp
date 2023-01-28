@@ -5,14 +5,23 @@ using namespace std;
 
 int main()
 {
-    int a= 1, b=1;
+    int Array[9] = {};
+    int MaxNum = 0;
+    int MaxNumIdx = 0;
+    int GetNum = 0;
 
-    while (true)
+    for (int i = 0; i < 9; ++i)
     {
-        cin >> a >> b;
-        if (a == 0 && b == 0)
-            break;
-        cout << a + b << endl;
+        cin >> GetNum;
+        if (GetNum > MaxNum)
+        {
+            MaxNum = GetNum;
+            MaxNumIdx = i;
+        }
     }
+
+    cout << MaxNum << endl << MaxNumIdx + 1;
+
+
     return 0;
 }
