@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ACM호텔.cpp" />
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="main.cpp" />
@@ -146,7 +147,12 @@
     <ClCompile Include="단어의개수.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="바보상수.cpp" />
+    <ClCompile Include="벌집.cpp" />
+    <ClCompile Include="부녀회장이될테야.cpp" />
+    <ClCompile Include="분수찾기.cpp" />
     <ClCompile Include="빠른A+B.cpp" />
+    <ClCompile Include="설탕배달.cpp" />
+    <ClCompile Include="손익분기점.cpp" />
     <ClCompile Include="숫자의합.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
@@ -156,6 +162,7 @@
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소_최대.cpp" />
     <ClCompile Include="크로아티아알파벳.cpp" />
+    <ClCompile Include="큰_수A+B.cpp" />
     <ClCompile Include="평균.cpp" />
     <ClCompile Include="평균은_넘겠지.cpp" />
     <ClCompile Include="한수.cpp" />

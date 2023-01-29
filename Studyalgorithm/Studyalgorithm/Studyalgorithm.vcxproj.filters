@@ -38,12 +38,6 @@
     <ClCompile Include="정수N개의합.cpp">
       <Filter>코딩테스트\함수</Filter>
     </ClCompile>
-    <ClCompile Include="ASCII.cpp">
-      <Filter>코딩테스트\문자열</Filter>
-    </ClCompile>
-    <ClCompile Include="단어의개수.cpp">
-      <Filter>코딩테스트\문자열</Filter>
-    </ClCompile>
     <ClCompile Include="오븐시계.cpp">
       <Filter>코딩테스트\조건문</Filter>
     </ClCompile>
@@ -95,6 +89,33 @@
     <ClCompile Include="그룹_단어_체커.cpp">
       <Filter>코딩테스트\문자열1</Filter>
     </ClCompile>
+    <ClCompile Include="ASCII.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="단어의개수.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="손익분기점.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="벌집.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="분수찾기.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM호텔.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="큰_수A+B.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="부녀회장이될테야.cpp">
+      <Filter>코딩테스트\기본수학1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -114,9 +135,6 @@
     </Filter>
     <Filter Include="코딩테스트\함수">
       <UniqueIdentifier>{44259bc1-92b4-452f-ab2f-a3dfa7811e8c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="코딩테스트\문자열">
-      <UniqueIdentifier>{8ffd3ff7-d922-4cd1-8a02-f3c33b803e05}</UniqueIdentifier>
     </Filter>
     <Filter Include="코딩테스트\조건문">
       <UniqueIdentifier>{c3953393-e05c-4085-9e8b-15ddf4d1e034}</UniqueIdentifier>
