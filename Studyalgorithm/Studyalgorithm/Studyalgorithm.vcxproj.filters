@@ -71,6 +71,30 @@
     <ClCompile Include="SelfNumber.cpp">
       <Filter>코딩테스트\함수</Filter>
     </ClCompile>
+    <ClCompile Include="숫자의합.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="알파벳_찾기.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열_반복.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="단어_공부.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="바보상수.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="다이얼.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="크로아티아알파벳.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="그룹_단어_체커.cpp">
+      <Filter>코딩테스트\문자열1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -99,6 +123,9 @@
     </Filter>
     <Filter Include="코딩테스트\반복문">
       <UniqueIdentifier>{ff9f431e-2339-4c94-a9f6-f6338535ac4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\문자열1">
+      <UniqueIdentifier>{47d4da07-7eeb-4ee4-96ab-9207395b745f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
