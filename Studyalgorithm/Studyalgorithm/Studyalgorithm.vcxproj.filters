@@ -128,6 +128,51 @@
     <ClCompile Include="소인수분해.cpp">
       <Filter>코딩테스트\기본수학2</Filter>
     </ClCompile>
+    <ClCompile Include="베트트랑공준.cpp">
+      <Filter>코딩테스트\기본수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="골드바흐의추측.cpp">
+      <Filter>코딩테스트\기본수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬덧셈.cpp">
+      <Filter>코딩테스트\2차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬최댓값.cpp">
+      <Filter>코딩테스트\2차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이.cpp">
+      <Filter>코딩테스트\2차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="수정렬.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="대표값2.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="커트라인.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="소트인사이드.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표정렬시간초과.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표정렬하기.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표정렬하기2.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="단어_정렬.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="나이순_정렬.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="통계학.cpp">
+      <Filter>코딩테스트\정렬</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -159,6 +204,12 @@
     </Filter>
     <Filter Include="코딩테스트\기본수학2">
       <UniqueIdentifier>{e842c7d4-eb2e-4772-a8a0-643d20452d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\2차원배열">
+      <UniqueIdentifier>{e165d9c8-d8fe-429e-83a5-94f59bc6ab3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코딩테스트\정렬">
+      <UniqueIdentifier>{af51f8a2-36b5-481f-9fe0-bfc354b15432}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
