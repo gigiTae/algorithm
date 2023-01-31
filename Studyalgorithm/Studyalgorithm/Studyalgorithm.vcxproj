@@ -133,6 +133,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OX퀴즈.cpp" />
     <ClCompile Include="SelfNumber.cpp" />
+    <ClCompile Include="string_to_int.cpp" />
     <ClCompile Include="ThreeDice.cpp" />
     <ClCompile Include="골드바흐의추측.cpp" />
     <ClCompile Include="그룹_단어_체커.cpp" />
@@ -149,12 +150,16 @@
     <ClCompile Include="나머지.cpp" />
     <ClCompile Include="단어의개수.cpp" />
     <ClCompile Include="대표값2.cpp" />
+    <ClCompile Include="덩치.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="바보상수.cpp" />
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
+    <ClCompile Include="별찍기10.cpp" />
     <ClCompile Include="부녀회장이될테야.cpp" />
     <ClCompile Include="분수찾기.cpp" />
+    <ClCompile Include="분해합.cpp" />
+    <ClCompile Include="블랙잭.cpp" />
     <ClCompile Include="빠른A+B.cpp" />
     <ClCompile Include="색종이.cpp" />
     <ClCompile Include="설탕배달.cpp" />
@@ -170,6 +175,7 @@
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="영수증.cpp" />
+    <ClCompile Include="영화감독 숀.cpp" />
     <ClCompile Include="오븐시계.cpp" />
     <ClCompile Include="재귀의 귀재.cpp" />
     <ClCompile Include="정수N개의합.cpp" />

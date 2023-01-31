@@ -188,6 +188,24 @@
     <ClCompile Include="재귀의 귀재.cpp">
       <Filter>백준단계\재귀</Filter>
     </ClCompile>
+    <ClCompile Include="별찍기10.cpp">
+      <Filter>백준단계\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="블랙잭.cpp">
+      <Filter>백준단계\브루트포</Filter>
+    </ClCompile>
+    <ClCompile Include="string_to_int.cpp">
+      <Filter>C++공부</Filter>
+    </ClCompile>
+    <ClCompile Include="분해합.cpp">
+      <Filter>백준단계\브루트포</Filter>
+    </ClCompile>
+    <ClCompile Include="덩치.cpp">
+      <Filter>백준단계\브루트포</Filter>
+    </ClCompile>
+    <ClCompile Include="영화감독 숀.cpp">
+      <Filter>백준단계\브루트포</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -228,6 +246,12 @@
     </Filter>
     <Filter Include="백준단계\재귀">
       <UniqueIdentifier>{1a44a5b0-76a3-414a-a2aa-9e45e7d2699a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\브루트포">
+      <UniqueIdentifier>{d3bd3cc9-3b10-458d-91d6-132fe7d37b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++공부">
+      <UniqueIdentifier>{767d4ef5-9cd3-41b9-bef5-8d29e6400918}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
