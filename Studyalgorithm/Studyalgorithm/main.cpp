@@ -1,10 +1,19 @@
 #include <iostream>
 
-using namespace std; 
+using namespace std;
 
-int main(void)
+void PointStar(int number)
 {
 
-	return 0;
 }
 
+
+int main() 
+{
+	int Number = 0;
+	cin >> Number;
+
+	PointStar(Number);
+
+
+}

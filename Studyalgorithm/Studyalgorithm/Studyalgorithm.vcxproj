@@ -165,12 +165,15 @@
     <ClCompile Include="소트인사이드.cpp" />
     <ClCompile Include="손익분기점.cpp" />
     <ClCompile Include="수정렬.cpp" />
+    <ClCompile Include="수정렬하기3.cpp" />
     <ClCompile Include="숫자의합.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="영수증.cpp" />
     <ClCompile Include="오븐시계.cpp" />
+    <ClCompile Include="재귀의 귀재.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
+    <ClCompile Include="좌표압축.cpp" />
     <ClCompile Include="좌표정렬시간초과.cpp" />
     <ClCompile Include="좌표정렬하기.cpp" />
     <ClCompile Include="좌표정렬하기2.cpp" />
@@ -180,8 +183,10 @@
     <ClCompile Include="크로아티아알파벳.cpp" />
     <ClCompile Include="큰_수A+B.cpp" />
     <ClCompile Include="통계학.cpp" />
+    <ClCompile Include="팩토리얼cpp.cpp" />
     <ClCompile Include="평균.cpp" />
     <ClCompile Include="평균은_넘겠지.cpp" />
+    <ClCompile Include="피보나치cpp.cpp" />
     <ClCompile Include="한수.cpp" />
     <ClCompile Include="행렬덧셈.cpp" />
     <ClCompile Include="행렬최댓값.cpp" />

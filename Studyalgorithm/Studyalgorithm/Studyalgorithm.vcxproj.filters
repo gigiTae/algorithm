@@ -6,172 +6,187 @@
       <Filter>알고리즘\CircleQueue</Filter>
     </ClCompile>
     <ClCompile Include="개수세기.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="X보다_작은_수.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="최소_최대.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="최댓값.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="과제_안_내신_분.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="나머지.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="평균.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="OX퀴즈.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="평균은_넘겠지.cpp">
-      <Filter>코딩테스트\배열</Filter>
+      <Filter>백준단계\배열</Filter>
     </ClCompile>
     <ClCompile Include="달팽.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="정수N개의합.cpp">
-      <Filter>코딩테스트\함수</Filter>
+      <Filter>백준단계\함수</Filter>
     </ClCompile>
     <ClCompile Include="오븐시계.cpp">
-      <Filter>코딩테스트\조건문</Filter>
+      <Filter>백준단계\조건문</Filter>
     </ClCompile>
     <ClCompile Include="알람시계.cpp">
-      <Filter>코딩테스트\조건문</Filter>
+      <Filter>백준단계\조건문</Filter>
     </ClCompile>
     <ClCompile Include="ThreeDice.cpp">
-      <Filter>코딩테스트\조건문</Filter>
+      <Filter>백준단계\조건문</Filter>
     </ClCompile>
     <ClCompile Include="나누기소수점.cpp">
-      <Filter>코딩테스트\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="곱셈.cpp">
-      <Filter>코딩테스트\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="빠른A+B.cpp">
-      <Filter>코딩테스트\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="영수증.cpp">
-      <Filter>코딩테스트\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="한수.cpp">
-      <Filter>코딩테스트\함수</Filter>
+      <Filter>백준단계\함수</Filter>
     </ClCompile>
     <ClCompile Include="SelfNumber.cpp">
-      <Filter>코딩테스트\함수</Filter>
+      <Filter>백준단계\함수</Filter>
     </ClCompile>
     <ClCompile Include="숫자의합.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="알파벳_찾기.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="문자열_반복.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="단어_공부.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="바보상수.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="다이얼.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="크로아티아알파벳.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="그룹_단어_체커.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="ASCII.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="단어의개수.cpp">
-      <Filter>코딩테스트\문자열1</Filter>
+      <Filter>백준단계\문자열1</Filter>
     </ClCompile>
     <ClCompile Include="손익분기점.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="벌집.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="분수찾기.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="ACM호텔.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="설탕배달.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="큰_수A+B.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="부녀회장이될테야.cpp">
-      <Filter>코딩테스트\기본수학1</Filter>
+      <Filter>백준단계\기본수학1</Filter>
     </ClCompile>
     <ClCompile Include="소수찾기.cpp">
-      <Filter>코딩테스트\기본수학2</Filter>
+      <Filter>백준단계\기본수학2</Filter>
     </ClCompile>
     <ClCompile Include="소수.cpp">
-      <Filter>코딩테스트\기본수학2</Filter>
+      <Filter>백준단계\기본수학2</Filter>
     </ClCompile>
     <ClCompile Include="소수_구하기.cpp">
-      <Filter>코딩테스트\기본수학2</Filter>
+      <Filter>백준단계\기본수학2</Filter>
     </ClCompile>
     <ClCompile Include="소인수분해.cpp">
-      <Filter>코딩테스트\기본수학2</Filter>
+      <Filter>백준단계\기본수학2</Filter>
     </ClCompile>
     <ClCompile Include="베트트랑공준.cpp">
-      <Filter>코딩테스트\기본수학2</Filter>
+      <Filter>백준단계\기본수학2</Filter>
     </ClCompile>
     <ClCompile Include="골드바흐의추측.cpp">
-      <Filter>코딩테스트\기본수학2</Filter>
+      <Filter>백준단계\기본수학2</Filter>
     </ClCompile>
     <ClCompile Include="행렬덧셈.cpp">
-      <Filter>코딩테스트\2차원배열</Filter>
+      <Filter>백준단계\2차원배열</Filter>
     </ClCompile>
     <ClCompile Include="행렬최댓값.cpp">
-      <Filter>코딩테스트\2차원배열</Filter>
+      <Filter>백준단계\2차원배열</Filter>
     </ClCompile>
     <ClCompile Include="색종이.cpp">
-      <Filter>코딩테스트\2차원배열</Filter>
+      <Filter>백준단계\2차원배열</Filter>
     </ClCompile>
     <ClCompile Include="수정렬.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="대표값2.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="커트라인.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="소트인사이드.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="좌표정렬시간초과.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="좌표정렬하기.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="좌표정렬하기2.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="단어_정렬.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="나이순_정렬.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
     </ClCompile>
     <ClCompile Include="통계학.cpp">
-      <Filter>코딩테스트\정렬</Filter>
+      <Filter>백준단계\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="수정렬하기3.cpp">
+      <Filter>백준단계\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표압축.cpp">
+      <Filter>백준단계\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="팩토리얼cpp.cpp">
+      <Filter>백준단계\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치cpp.cpp">
+      <Filter>백준단계\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="재귀의 귀재.cpp">
+      <Filter>백준단계\재귀</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -181,35 +196,38 @@
     <Filter Include="알고리즘\CircleQueue">
       <UniqueIdentifier>{fd0c35fb-c639-4240-b40b-31d5db0b8083}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트">
+    <Filter Include="백준단계">
       <UniqueIdentifier>{45f73f15-21a2-4c9f-81ab-317af4ae3f1f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\배열">
+    <Filter Include="백준단계\배열">
       <UniqueIdentifier>{f62d6edc-fc50-4d02-928d-d3b2412fa7e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\기본수학1">
+    <Filter Include="백준단계\기본수학1">
       <UniqueIdentifier>{9ab4f649-61e1-4eb4-8d48-aee415b17f8f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\함수">
+    <Filter Include="백준단계\함수">
       <UniqueIdentifier>{44259bc1-92b4-452f-ab2f-a3dfa7811e8c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\조건문">
+    <Filter Include="백준단계\조건문">
       <UniqueIdentifier>{c3953393-e05c-4085-9e8b-15ddf4d1e034}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\반복문">
+    <Filter Include="백준단계\반복문">
       <UniqueIdentifier>{ff9f431e-2339-4c94-a9f6-f6338535ac4f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\문자열1">
+    <Filter Include="백준단계\문자열1">
       <UniqueIdentifier>{47d4da07-7eeb-4ee4-96ab-9207395b745f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\기본수학2">
+    <Filter Include="백준단계\기본수학2">
       <UniqueIdentifier>{e842c7d4-eb2e-4772-a8a0-643d20452d3f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\2차원배열">
+    <Filter Include="백준단계\2차원배열">
       <UniqueIdentifier>{e165d9c8-d8fe-429e-83a5-94f59bc6ab3a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="코딩테스트\정렬">
+    <Filter Include="백준단계\정렬">
       <UniqueIdentifier>{af51f8a2-36b5-481f-9fe0-bfc354b15432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\재귀">
+      <UniqueIdentifier>{1a44a5b0-76a3-414a-a2aa-9e45e7d2699a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
