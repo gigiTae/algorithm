@@ -230,6 +230,15 @@
     <ClCompile Include="서로 다른 부분 문자열 개수.cpp">
       <Filter>백준단계\집합과맵</Filter>
     </ClCompile>
+    <ClCompile Include="직사각형에서 탈출.cpp">
+      <Filter>백준단계\기하1</Filter>
+    </ClCompile>
+    <ClCompile Include="네번째점.cpp">
+      <Filter>백준단계\기하1</Filter>
+    </ClCompile>
+    <ClCompile Include="직각삼각형.cpp">
+      <Filter>백준단계\기하1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -279,6 +288,9 @@
     </Filter>
     <Filter Include="백준단계\집합과맵">
       <UniqueIdentifier>{15ae6b3c-141f-4799-a094-52a4db93f20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\기하1">
+      <UniqueIdentifier>{35c96dd9-41e6-42bb-9163-b27056f14213}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
