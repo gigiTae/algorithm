@@ -137,6 +137,7 @@
     <ClCompile Include="ThreeDice.cpp" />
     <ClCompile Include="골드바흐의추측.cpp" />
     <ClCompile Include="그룹_단어_체커.cpp" />
+    <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
     <ClCompile Include="나이순_정렬.cpp" />
     <ClCompile Include="다이얼.cpp" />
     <ClCompile Include="단어_공부.cpp" />
@@ -149,9 +150,12 @@
     <ClCompile Include="나누기소수점.cpp" />
     <ClCompile Include="나머지.cpp" />
     <ClCompile Include="단어의개수.cpp" />
+    <ClCompile Include="대칭 차집합.cpp" />
     <ClCompile Include="대표값2.cpp" />
     <ClCompile Include="덩치.cpp" />
+    <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
+    <ClCompile Include="문자열집합.cpp" />
     <ClCompile Include="바보상수.cpp" />
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
@@ -162,6 +166,7 @@
     <ClCompile Include="블랙잭.cpp" />
     <ClCompile Include="빠른A+B.cpp" />
     <ClCompile Include="색종이.cpp" />
+    <ClCompile Include="서로 다른 부분 문자열 개수.cpp" />
     <ClCompile Include="설탕배달.cpp" />
     <ClCompile Include="소수.cpp" />
     <ClCompile Include="소수_구하기.cpp" />
@@ -172,6 +177,8 @@
     <ClCompile Include="수정렬.cpp" />
     <ClCompile Include="수정렬하기3.cpp" />
     <ClCompile Include="숫자의합.cpp" />
+    <ClCompile Include="숫자카드.cpp" />
+    <ClCompile Include="숫자카드2.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="영수증.cpp" />
@@ -183,6 +190,7 @@
     <ClCompile Include="좌표정렬시간초과.cpp" />
     <ClCompile Include="좌표정렬하기.cpp" />
     <ClCompile Include="좌표정렬하기2.cpp" />
+    <ClCompile Include="체스판다시칠하기.cpp" />
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소_최대.cpp" />
     <ClCompile Include="커트라인.cpp" />

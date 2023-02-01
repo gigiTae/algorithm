@@ -206,6 +206,30 @@
     <ClCompile Include="영화감독 숀.cpp">
       <Filter>백준단계\브루트포</Filter>
     </ClCompile>
+    <ClCompile Include="체스판다시칠하기.cpp">
+      <Filter>백준단계\브루트포</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자카드.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열집합.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
+    <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자카드2.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
+    <ClCompile Include="듣보잡.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
+    <ClCompile Include="대칭 차집합.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
+    <ClCompile Include="서로 다른 부분 문자열 개수.cpp">
+      <Filter>백준단계\집합과맵</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -252,6 +276,9 @@
     </Filter>
     <Filter Include="C++공부">
       <UniqueIdentifier>{767d4ef5-9cd3-41b9-bef5-8d29e6400918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\집합과맵">
+      <UniqueIdentifier>{15ae6b3c-141f-4799-a094-52a4db93f20b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
