@@ -172,6 +172,7 @@
     <ClCompile Include="소수.cpp" />
     <ClCompile Include="소수_구하기.cpp" />
     <ClCompile Include="소수찾기.cpp" />
+    <ClCompile Include="소스.cpp" />
     <ClCompile Include="소인수분해.cpp" />
     <ClCompile Include="소트인사이드.cpp" />
     <ClCompile Include="손익분기점.cpp" />

@@ -239,6 +239,9 @@
     <ClCompile Include="직각삼각형.cpp">
       <Filter>백준단계\기하1</Filter>
     </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>백준단계\백트래킹</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -291,6 +294,9 @@
     </Filter>
     <Filter Include="백준단계\기하1">
       <UniqueIdentifier>{35c96dd9-41e6-42bb-9163-b27056f14213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\백트래킹">
+      <UniqueIdentifier>{5e9b33bd-fadc-426e-b4ee-c4c11e928cbe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
