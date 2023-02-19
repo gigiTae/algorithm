@@ -131,6 +131,7 @@
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="N-Queen.cpp" />
     <ClCompile Include="OX퀴즈.cpp" />
     <ClCompile Include="SelfNumber.cpp" />
     <ClCompile Include="string_to_int.cpp" />
@@ -172,7 +173,7 @@
     <ClCompile Include="소수.cpp" />
     <ClCompile Include="소수_구하기.cpp" />
     <ClCompile Include="소수찾기.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="N과M.cpp" />
     <ClCompile Include="소인수분해.cpp" />
     <ClCompile Include="소트인사이드.cpp" />
     <ClCompile Include="손익분기점.cpp" />
@@ -181,6 +182,7 @@
     <ClCompile Include="숫자의합.cpp" />
     <ClCompile Include="숫자카드.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
+    <ClCompile Include="스도쿠.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="영수증.cpp" />

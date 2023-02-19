@@ -239,7 +239,13 @@
     <ClCompile Include="직각삼각형.cpp">
       <Filter>백준단계\기하1</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="N과M.cpp">
+      <Filter>백준단계\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="N-Queen.cpp">
+      <Filter>백준단계\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="스도쿠.cpp">
       <Filter>백준단계\백트래킹</Filter>
     </ClCompile>
   </ItemGroup>
