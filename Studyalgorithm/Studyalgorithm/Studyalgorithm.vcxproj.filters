@@ -248,6 +248,12 @@
     <ClCompile Include="스도쿠.cpp">
       <Filter>백준단계\백트래킹</Filter>
     </ClCompile>
+    <ClCompile Include="연산자 끼워넣기.cpp">
+      <Filter>백준단계\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트와 링크.cpp">
+      <Filter>백준단계\백트래킹</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

@@ -183,8 +183,10 @@
     <ClCompile Include="숫자카드.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
     <ClCompile Include="스도쿠.cpp" />
+    <ClCompile Include="스타트와 링크.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
+    <ClCompile Include="연산자 끼워넣기.cpp" />
     <ClCompile Include="영수증.cpp" />
     <ClCompile Include="영화감독 숀.cpp" />
     <ClCompile Include="오븐시계.cpp" />
