@@ -254,6 +254,18 @@
     <ClCompile Include="스타트와 링크.cpp">
       <Filter>백준단계\백트래킹</Filter>
     </ClCompile>
+    <ClCompile Include="알고리즘수업-피보나치수1.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="신나는 함수 실행.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="01타일.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="파도반수열.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -309,6 +321,9 @@
     </Filter>
     <Filter Include="백준단계\백트래킹">
       <UniqueIdentifier>{5e9b33bd-fadc-426e-b4ee-c4c11e928cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\동적계획법1">
+      <UniqueIdentifier>{f7e5d9d1-c7be-4107-bb93-3bae63ff5758}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
