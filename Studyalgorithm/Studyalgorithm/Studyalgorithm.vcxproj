@@ -134,6 +134,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="N-Queen.cpp" />
     <ClCompile Include="OX퀴즈.cpp" />
+    <ClCompile Include="RGB거리.cpp" />
     <ClCompile Include="SelfNumber.cpp" />
     <ClCompile Include="string_to_int.cpp" />
     <ClCompile Include="ThreeDice.cpp" />
@@ -190,11 +191,13 @@
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="연산자 끼워넣기.cpp" />
+    <ClCompile Include="연속합.cpp" />
     <ClCompile Include="영수증.cpp" />
     <ClCompile Include="영화감독 숀.cpp" />
     <ClCompile Include="오븐시계.cpp" />
     <ClCompile Include="재귀의 귀재.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
+    <ClCompile Include="정수삼각형.cpp" />
     <ClCompile Include="좌표압축.cpp" />
     <ClCompile Include="좌표정렬시간초과.cpp" />
     <ClCompile Include="좌표정렬하기.cpp" />

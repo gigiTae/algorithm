@@ -266,6 +266,15 @@
     <ClCompile Include="파도반수열.cpp">
       <Filter>백준단계\동적계획법1</Filter>
     </ClCompile>
+    <ClCompile Include="연속합.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB거리.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="정수삼각형.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
