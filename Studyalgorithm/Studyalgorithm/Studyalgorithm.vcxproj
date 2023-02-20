@@ -138,6 +138,7 @@
     <ClCompile Include="SelfNumber.cpp" />
     <ClCompile Include="string_to_int.cpp" />
     <ClCompile Include="ThreeDice.cpp" />
+    <ClCompile Include="계단오르기.cpp" />
     <ClCompile Include="골드바흐의추측.cpp" />
     <ClCompile Include="그룹_단어_체커.cpp" />
     <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="다이얼.cpp" />
     <ClCompile Include="단어_공부.cpp" />
     <ClCompile Include="단어_정렬.cpp" />
+    <ClCompile Include="단어길이재기cpp.cpp" />
     <ClCompile Include="달팽.cpp" />
     <ClCompile Include="X보다_작은_수.cpp" />
     <ClCompile Include="개수세기.cpp" />
@@ -158,12 +160,14 @@
     <ClCompile Include="대표값2.cpp" />
     <ClCompile Include="덩치.cpp" />
     <ClCompile Include="듣보잡.cpp" />
+    <ClCompile Include="문자열.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="문자열집합.cpp" />
     <ClCompile Include="바보상수.cpp" />
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
     <ClCompile Include="별찍기10.cpp" />
+    <ClCompile Include="별찍기7.cpp" />
     <ClCompile Include="부녀회장이될테야.cpp" />
     <ClCompile Include="분수찾기.cpp" />
     <ClCompile Include="분해합.cpp" />

@@ -275,6 +275,18 @@
     <ClCompile Include="정수삼각형.cpp">
       <Filter>백준단계\동적계획법1</Filter>
     </ClCompile>
+    <ClCompile Include="계단오르기.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기7.cpp">
+      <Filter>백준단계\심화1</Filter>
+    </ClCompile>
+    <ClCompile Include="단어길이재기cpp.cpp">
+      <Filter>백준단계\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열.cpp">
+      <Filter>백준단계\문자열1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -333,6 +345,9 @@
     </Filter>
     <Filter Include="백준단계\동적계획법1">
       <UniqueIdentifier>{f7e5d9d1-c7be-4107-bb93-3bae63ff5758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\심화1">
+      <UniqueIdentifier>{8e8d3a28-33b7-4dc1-8f2a-49c2571f8e2a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
