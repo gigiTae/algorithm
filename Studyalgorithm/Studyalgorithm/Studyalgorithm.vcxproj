@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01타일.cpp" />
+    <ClCompile Include="1로 만들기.cpp" />
     <ClCompile Include="ACM호텔.cpp" />
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="CircleQueue.cpp" />

@@ -287,6 +287,9 @@
     <ClCompile Include="문자열.cpp">
       <Filter>백준단계\문자열1</Filter>
     </ClCompile>
+    <ClCompile Include="1로 만들기.cpp">
+      <Filter>백준단계\문자열1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
