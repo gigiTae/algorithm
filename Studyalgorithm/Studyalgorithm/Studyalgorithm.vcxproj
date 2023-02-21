@@ -189,6 +189,7 @@
     <ClCompile Include="숫자의합.cpp" />
     <ClCompile Include="숫자카드.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
+    <ClCompile Include="쉬운계단수cpp.cpp" />
     <ClCompile Include="스도쿠.cpp" />
     <ClCompile Include="스타트와 링크.cpp" />
     <ClCompile Include="신나는 함수 실행.cpp" />

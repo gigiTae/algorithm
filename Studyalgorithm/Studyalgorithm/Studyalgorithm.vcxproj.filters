@@ -290,6 +290,9 @@
     <ClCompile Include="1로 만들기.cpp">
       <Filter>백준단계\문자열1</Filter>
     </ClCompile>
+    <ClCompile Include="쉬운계단수cpp.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
