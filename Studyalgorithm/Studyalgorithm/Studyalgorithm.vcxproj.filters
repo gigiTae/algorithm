@@ -293,6 +293,24 @@
     <ClCompile Include="쉬운계단수cpp.cpp">
       <Filter>백준단계\동적계획법1</Filter>
     </ClCompile>
+    <ClCompile Include="세로읽기.cpp">
+      <Filter>백준단계\2차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 증가하는 부분 수열.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="가장긴바이토닉부분수열.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="그대로출력하기.cpp">
+      <Filter>백준단계\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="구간 합 구하기.cpp">
+      <Filter>백준단계\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="수열.cpp">
+      <Filter>백준단계\누적합</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -354,6 +372,9 @@
     </Filter>
     <Filter Include="백준단계\심화1">
       <UniqueIdentifier>{8e8d3a28-33b7-4dc1-8f2a-49c2571f8e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\누적합">
+      <UniqueIdentifier>{061923b6-3040-4665-9194-1829275c2069}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
