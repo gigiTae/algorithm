@@ -219,6 +219,7 @@
     <ClCompile Include="좌표정렬시간초과.cpp" />
     <ClCompile Include="좌표정렬하기.cpp" />
     <ClCompile Include="좌표정렬하기2.cpp" />
+    <ClCompile Include="주유소.cpp" />
     <ClCompile Include="직각삼각형.cpp" />
     <ClCompile Include="직사각형에서 탈출.cpp" />
     <ClCompile Include="체스판다시칠하기.cpp" />
