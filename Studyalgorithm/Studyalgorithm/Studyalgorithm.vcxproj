@@ -147,6 +147,7 @@
     <ClCompile Include="그대로출력하기.cpp" />
     <ClCompile Include="그룹_단어_체커.cpp" />
     <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
+    <ClCompile Include="나머지 합.cpp" />
     <ClCompile Include="나이순_정렬.cpp" />
     <ClCompile Include="네번째점.cpp" />
     <ClCompile Include="다이얼.cpp" />

@@ -311,6 +311,9 @@
     <ClCompile Include="수열.cpp">
       <Filter>백준단계\누적합</Filter>
     </ClCompile>
+    <ClCompile Include="나머지 합.cpp">
+      <Filter>백준단계\누적합</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
