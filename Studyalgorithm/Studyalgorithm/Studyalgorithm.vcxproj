@@ -143,7 +143,8 @@
     <ClCompile Include="가장긴바이토닉부분수열.cpp" />
     <ClCompile Include="계단오르기.cpp" />
     <ClCompile Include="골드바흐의추측.cpp" />
-    <ClCompile Include="구간 합 구하기.cpp" />
+    <ClCompile Include="구간 합 구하기4.cpp" />
+    <ClCompile Include="구간 합 구하기5.cpp" />
     <ClCompile Include="그대로출력하기.cpp" />
     <ClCompile Include="그룹_단어_체커.cpp" />
     <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="대칭 차집합.cpp" />
     <ClCompile Include="대표값2.cpp" />
     <ClCompile Include="덩치.cpp" />
+    <ClCompile Include="동전O.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="문자열.cpp" />
     <ClCompile Include="문자열_반복.cpp" />

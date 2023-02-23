@@ -1,8 +1,7 @@
 
 #include<iostream>
-
+#include<vector>
 using namespace std;
-
 
 int main()
 {
@@ -10,33 +9,31 @@ int main()
 	cout.tie(NULL);
 	ios::sync_with_stdio(false);
 
-	int N, M;
-	cin >> N >> M;
+	int N, K;
+	cin >> N >> K;
+	vector<int> vec;
 
-	long long* Remain = new long long[M];
-
-	for (int i = 0; i < M; ++i)
-	{
-		Remain[i] = 0;
-	}
-	Remain[0] = 1;
-	int PrevRemain = 0;
-	long long ans = 0;
 	for (int i = 0; i < N; ++i)
 	{
-		int num = 0;
-		cin >> num;
-		num = num % M;
-		PrevRemain = (num + PrevRemain) % M;
-		++Remain[PrevRemain];
+		int value;
+		cin >> value;
+		vec.push_back(value);
 	}
 
-	for (int i = 0; i < M; ++i)
+	int ans = 0;
+	while (K)
 	{
-		if (Remain[i] > 1)
-			ans += Remain[i] * (Remain[i] - 1) / 2;
+		if (K / vec.back() > 0)
+		{
+			ans += K / vec.back();
+			K = K % vec.back();
+			vec.pop_back();
+		}
+		else
+			vec.pop_back();
 	}
 
 	cout << ans;
+
 	return 0;
 }
