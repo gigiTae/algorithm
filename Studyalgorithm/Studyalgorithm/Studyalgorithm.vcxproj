@@ -202,6 +202,7 @@
     <ClCompile Include="쉬운계단수cpp.cpp" />
     <ClCompile Include="스도쿠.cpp" />
     <ClCompile Include="스타트와 링크.cpp" />
+    <ClCompile Include="스택.cpp" />
     <ClCompile Include="신나는 함수 실행.cpp" />
     <ClCompile Include="알고리즘수업-피보나치수1.cpp" />
     <ClCompile Include="알람시계.cpp" />

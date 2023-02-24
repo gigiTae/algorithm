@@ -329,6 +329,9 @@
     <ClCompile Include="주유소.cpp">
       <Filter>백준단계\그리디 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="스택.cpp">
+      <Filter>백준단계\스택</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -396,6 +399,9 @@
     </Filter>
     <Filter Include="백준단계\그리디 알고리즘">
       <UniqueIdentifier>{234bd287-e90f-45c7-a21c-ee0d93d8e066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\스택">
+      <UniqueIdentifier>{e3cca5f2-5ff7-4775-9678-9eabaa558bb3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
