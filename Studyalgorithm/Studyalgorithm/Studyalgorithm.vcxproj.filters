@@ -332,6 +332,12 @@
     <ClCompile Include="스택.cpp">
       <Filter>백준단계\스택</Filter>
     </ClCompile>
+    <ClCompile Include="제로.cpp">
+      <Filter>백준단계\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="균형잡힌세상.cpp">
+      <Filter>백준단계\스택</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

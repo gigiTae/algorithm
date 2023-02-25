@@ -146,6 +146,7 @@
     <ClCompile Include="골드바흐의추측.cpp" />
     <ClCompile Include="구간 합 구하기4.cpp" />
     <ClCompile Include="구간 합 구하기5.cpp" />
+    <ClCompile Include="균형잡힌세상.cpp" />
     <ClCompile Include="그대로출력하기.cpp" />
     <ClCompile Include="그룹_단어_체커.cpp" />
     <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
@@ -216,6 +217,7 @@
     <ClCompile Include="재귀의 귀재.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
     <ClCompile Include="정수삼각형.cpp" />
+    <ClCompile Include="제로.cpp" />
     <ClCompile Include="좌표압축.cpp" />
     <ClCompile Include="좌표정렬시간초과.cpp" />
     <ClCompile Include="좌표정렬하기.cpp" />
