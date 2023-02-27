@@ -228,6 +228,7 @@
     <ClCompile Include="체스판다시칠하기.cpp" />
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소_최대.cpp" />
+    <ClCompile Include="카드2.cpp" />
     <ClCompile Include="커트라인.cpp" />
     <ClCompile Include="크로아티아알파벳.cpp" />
     <ClCompile Include="큰_수A+B.cpp" />
