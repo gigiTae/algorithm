@@ -345,13 +345,19 @@
       <Filter>백준단계\큐,덱</Filter>
     </ClCompile>
     <ClCompile Include="NodeQueue.cpp">
-      <Filter>알고리즘\NodeQueue</Filter>
+      <Filter>알고리즘\ListQueue</Filter>
     </ClCompile>
     <ClCompile Include="큐2.cpp">
       <Filter>백준단계\큐,덱</Filter>
     </ClCompile>
     <ClCompile Include="프린터 큐.cpp">
       <Filter>백준단계\큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="덱.cpp">
+      <Filter>백준단계\큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="덱리스트.cpp">
+      <Filter>알고리즘\ListDeque</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -427,8 +433,11 @@
     <Filter Include="백준단계\큐,덱">
       <UniqueIdentifier>{e87b0b8e-9a55-495c-af33-4d728b60c625}</UniqueIdentifier>
     </Filter>
-    <Filter Include="알고리즘\NodeQueue">
+    <Filter Include="알고리즘\ListQueue">
       <UniqueIdentifier>{69a2735c-54a9-4852-a140-0a8ca5aa72f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="알고리즘\ListDeque">
+      <UniqueIdentifier>{2c8c8639-740a-49ad-9d06-9d0e97c6be24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

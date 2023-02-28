@@ -169,6 +169,8 @@
     <ClCompile Include="대칭 차집합.cpp" />
     <ClCompile Include="대표값2.cpp" />
     <ClCompile Include="덩치.cpp" />
+    <ClCompile Include="덱.cpp" />
+    <ClCompile Include="덱리스트.cpp" />
     <ClCompile Include="동전O.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="문자열.cpp" />
