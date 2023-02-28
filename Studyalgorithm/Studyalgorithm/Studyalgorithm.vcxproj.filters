@@ -350,6 +350,9 @@
     <ClCompile Include="큐2.cpp">
       <Filter>백준단계\큐,덱</Filter>
     </ClCompile>
+    <ClCompile Include="프린터 큐.cpp">
+      <Filter>백준단계\큐,덱</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
