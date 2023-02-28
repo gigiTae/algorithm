@@ -135,6 +135,7 @@
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="N-Queen.cpp" />
+    <ClCompile Include="NodeQueue.cpp" />
     <ClCompile Include="OX퀴즈.cpp" />
     <ClCompile Include="RGB거리.cpp" />
     <ClCompile Include="SelfNumber.cpp" />
@@ -213,6 +214,7 @@
     <ClCompile Include="영수증.cpp" />
     <ClCompile Include="영화감독 숀.cpp" />
     <ClCompile Include="오븐시계.cpp" />
+    <ClCompile Include="요세푸스 푸스문제.cpp" />
     <ClCompile Include="잃어버린 괄호.cpp" />
     <ClCompile Include="재귀의 귀재.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
@@ -230,6 +232,7 @@
     <ClCompile Include="최소_최대.cpp" />
     <ClCompile Include="카드2.cpp" />
     <ClCompile Include="커트라인.cpp" />
+    <ClCompile Include="큐2.cpp" />
     <ClCompile Include="크로아티아알파벳.cpp" />
     <ClCompile Include="큰_수A+B.cpp" />
     <ClCompile Include="통계학.cpp" />
