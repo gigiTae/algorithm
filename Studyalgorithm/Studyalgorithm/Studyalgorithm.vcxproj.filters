@@ -359,6 +359,12 @@
     <ClCompile Include="덱리스트.cpp">
       <Filter>알고리즘\ListDeque</Filter>
     </ClCompile>
+    <ClCompile Include="회전하는 큐.cpp">
+      <Filter>백준단계\큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="AC.cpp">
+      <Filter>백준단계\큐,덱</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

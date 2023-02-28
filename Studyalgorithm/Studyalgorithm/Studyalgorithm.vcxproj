@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="01타일.cpp" />
     <ClCompile Include="1로 만들기.cpp" />
+    <ClCompile Include="AC.cpp" />
     <ClCompile Include="ACM호텔.cpp" />
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="ATM.cpp" />
@@ -247,6 +248,7 @@
     <ClCompile Include="한수.cpp" />
     <ClCompile Include="행렬덧셈.cpp" />
     <ClCompile Include="행렬최댓값.cpp" />
+    <ClCompile Include="회전하는 큐.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />
