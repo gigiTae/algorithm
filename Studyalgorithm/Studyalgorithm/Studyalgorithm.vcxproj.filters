@@ -377,6 +377,15 @@
     <ClCompile Include="곱셈1.cpp">
       <Filter>백준단계\분할정복</Filter>
     </ClCompile>
+    <ClCompile Include="이항계수2.cpp">
+      <Filter>백준단계\정수및 조합</Filter>
+    </ClCompile>
+    <ClCompile Include="이항계수와 쿼리.cpp">
+      <Filter>백준단계\정수및 조합</Filter>
+    </ClCompile>
+    <ClCompile Include="이항계수3.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -459,6 +468,9 @@
     </Filter>
     <Filter Include="백준단계\분할정복">
       <UniqueIdentifier>{92062f6b-7978-481b-bd5f-82c445a565a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\정수및 조합">
+      <UniqueIdentifier>{dc76d67b-5544-46a1-be1f-5e82a4f41e54}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
