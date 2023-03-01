@@ -365,6 +365,18 @@
     <ClCompile Include="AC.cpp">
       <Filter>백준단계\큐,덱</Filter>
     </ClCompile>
+    <ClCompile Include="색종이만들기.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드트리.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="종이의개수.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="곱셈1.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -444,6 +456,9 @@
     </Filter>
     <Filter Include="알고리즘\ListDeque">
       <UniqueIdentifier>{2c8c8639-740a-49ad-9d06-9d0e97c6be24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\분할정복">
+      <UniqueIdentifier>{92062f6b-7978-481b-bd5f-82c445a565a0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
