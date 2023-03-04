@@ -386,6 +386,27 @@
     <ClCompile Include="이항계수3.cpp">
       <Filter>백준단계\분할정복</Filter>
     </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 1.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 2.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 3cpp.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 4.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업 -알고리즘의 수행 시간 5.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 6.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업 - 점근적 표기1.cpp">
+      <Filter>백준단계\시간복잡도</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -471,6 +492,9 @@
     </Filter>
     <Filter Include="백준단계\정수및 조합">
       <UniqueIdentifier>{dc76d67b-5544-46a1-be1f-5e82a4f41e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\시간복잡도">
+      <UniqueIdentifier>{6076369c-bec2-4a46-9ac0-36e7ee27dd43}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
