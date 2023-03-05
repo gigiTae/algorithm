@@ -407,6 +407,12 @@
     <ClCompile Include="알고리즘 수업 - 점근적 표기1.cpp">
       <Filter>백준단계\시간복잡도</Filter>
     </ClCompile>
+    <ClCompile Include="너의 평점은.cpp">
+      <Filter>백준단계\심화1</Filter>
+    </ClCompile>
+    <ClCompile Include="체스판 다시 칠하기 2.cpp">
+      <Filter>백준단계\누적합</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

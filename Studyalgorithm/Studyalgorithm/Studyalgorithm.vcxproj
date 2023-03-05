@@ -155,6 +155,7 @@
     <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
     <ClCompile Include="나머지 합.cpp" />
     <ClCompile Include="나이순_정렬.cpp" />
+    <ClCompile Include="너의 평점은.cpp" />
     <ClCompile Include="네번째점.cpp" />
     <ClCompile Include="다이얼.cpp" />
     <ClCompile Include="단어_공부.cpp" />
@@ -243,6 +244,7 @@
     <ClCompile Include="주유소.cpp" />
     <ClCompile Include="직각삼각형.cpp" />
     <ClCompile Include="직사각형에서 탈출.cpp" />
+    <ClCompile Include="체스판 다시 칠하기 2.cpp" />
     <ClCompile Include="체스판다시칠하기.cpp" />
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소_최대.cpp" />
