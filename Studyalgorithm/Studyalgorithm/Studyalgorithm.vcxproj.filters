@@ -413,6 +413,18 @@
     <ClCompile Include="체스판 다시 칠하기 2.cpp">
       <Filter>백준단계\누적합</Filter>
     </ClCompile>
+    <ClCompile Include="다리놓기.cpp">
+      <Filter>백준단계\정수및 조합</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬곱셈.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="2중배열선언.cpp">
+      <Filter>C++공부</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬제곱.cpp">
+      <Filter>백준단계\분할정복</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="01타일.cpp" />
     <ClCompile Include="1로 만들기.cpp" />
+    <ClCompile Include="2중배열선언.cpp" />
     <ClCompile Include="AC.cpp" />
     <ClCompile Include="ACM호텔.cpp" />
     <ClCompile Include="ASCII.cpp" />
@@ -157,6 +158,7 @@
     <ClCompile Include="나이순_정렬.cpp" />
     <ClCompile Include="너의 평점은.cpp" />
     <ClCompile Include="네번째점.cpp" />
+    <ClCompile Include="다리놓기.cpp" />
     <ClCompile Include="다이얼.cpp" />
     <ClCompile Include="단어_공부.cpp" />
     <ClCompile Include="단어_정렬.cpp" />
@@ -262,7 +264,9 @@
     <ClCompile Include="프린터 큐.cpp" />
     <ClCompile Include="피보나치cpp.cpp" />
     <ClCompile Include="한수.cpp" />
+    <ClCompile Include="행렬곱셈.cpp" />
     <ClCompile Include="행렬덧셈.cpp" />
+    <ClCompile Include="행렬제곱.cpp" />
     <ClCompile Include="행렬최댓값.cpp" />
     <ClCompile Include="회전하는 큐.cpp" />
   </ItemGroup>
