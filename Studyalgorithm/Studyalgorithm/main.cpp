@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿
+#include <iostream>
 
 using namespace std;
 
@@ -8,6 +9,6 @@ int main()
     std::cout.tie(NULL);
     ios::sync_with_stdio(false);
 
- 
     return 0;
 }
+
