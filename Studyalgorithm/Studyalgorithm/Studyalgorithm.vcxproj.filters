@@ -428,6 +428,9 @@
     <ClCompile Include="피보나치6.cpp">
       <Filter>백준단계\분할정복</Filter>
     </ClCompile>
+    <ClCompile Include="RedBlackTree.cpp">
+      <Filter>알고리즘\RedBlackTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -517,10 +520,16 @@
     <Filter Include="백준단계\시간복잡도">
       <UniqueIdentifier>{6076369c-bec2-4a46-9ac0-36e7ee27dd43}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘\RedBlackTree">
+      <UniqueIdentifier>{a92a33b2-8fea-4294-a2aa-469d8d1da8a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">
       <Filter>알고리즘\CircleQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBlackTree.h">
+      <Filter>알고리즘\RedBlackTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

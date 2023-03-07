@@ -139,6 +139,7 @@
     <ClCompile Include="N-Queen.cpp" />
     <ClCompile Include="NodeQueue.cpp" />
     <ClCompile Include="OX퀴즈.cpp" />
+    <ClCompile Include="RedBlackTree.cpp" />
     <ClCompile Include="RGB거리.cpp" />
     <ClCompile Include="SelfNumber.cpp" />
     <ClCompile Include="string_to_int.cpp" />
@@ -273,6 +274,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h" />
+    <ClInclude Include="RedBlackTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
