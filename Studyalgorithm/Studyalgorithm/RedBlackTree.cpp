@@ -81,7 +81,10 @@ void RedBlackTree::RightRotation(Node* x)
 	x->Parent = g;
 
 	if (g == nullptr)  // p 가 루트노드이다 
+	{
 		Root = x;
+		x->Color = COLOR::BLACK;
+	}
 	else 
 	{
 		if (g->LeftChild == p)
@@ -107,7 +110,10 @@ void RedBlackTree::LeftRotation(Node* x)
 	x->Parent = g;
 
 	if (g == nullptr)  // p 가 루트노드이다 
+	{
 		Root = x;
+		x->Color = COLOR::BLACK;
+	}
 	else
 	{
 		if (g->LeftChild == p)
