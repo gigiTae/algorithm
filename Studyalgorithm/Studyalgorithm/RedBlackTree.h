@@ -31,9 +31,10 @@ private:
 	void RightRotation(Node* x);
 	void LeftRotation(Node* x);
 	void InsertFix(Node* x);
-	bool IsLeftChild(Node* x);
 	bool IsRightChild(Node* x);
-public:
+	bool IsLeftChild(Node* x);
+
+private:
 	Node* grandparent(Node* n);
 	Node* uncle(Node* n);
 

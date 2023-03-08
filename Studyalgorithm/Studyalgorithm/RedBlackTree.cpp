@@ -63,6 +63,16 @@ void RedBlackTree::insert(int _key)
 
 Node* RedBlackTree::find(int _key)
 {
+	Node* iter = Root;
+	while (iter != Leaf)
+	{
+		if (iter->iKey == _key)
+			return iter;
+		else if (iter->iKey > _key)
+			iter = iter->LeftChild;
+		else
+			iter = iter->RightChild;
+	}
 	return nullptr;
 }
 
@@ -141,30 +151,36 @@ void RedBlackTree::InsertFix(Node* x)
 	if (u->Color == COLOR::RED)
 	{
 		u->Color = COLOR::BLACK;
-		x->Color = COLOR::BLACK;
-
-		x->Parent->Color == COLOR::RED;
-		InsertFix(x->Parent);
-		return;
+		x->Parent->Color = COLOR::BLACK;
+		x->Parent->Parent->Color = COLOR::RED;
+		x = x->Parent->Parent;
+		if (Root == x)
+		{
+			x->Color = COLOR::BLACK;
+			return;
+		}
 	}
-	if (IsRightChild(x)) // case2:새로 삽입한 노드가 부모노드의 오른쪽 자식인 경우
+	// case2:새로 삽입한 노드가 부모노드의 오른쪽 자식인 경우
+	if (IsRightChild(x->Parent) && IsLeftChild(x))
 	{
-		if (IsLeftChild(x->Parent))
-		{
-			LeftRotation(x->Parent);           
-		}
-		else
-		{
-			RightRotation(x->Parent);
-		}
+		RightRotation(x);
+		x = x->RightChild;
+	}
+	else if (IsLeftChild(x->Parent) && IsRightChild(x))
+	{
+		LeftRotation(x);
+		x = x->LeftChild;
 	}
 	// case3:새로 삽입한 노드가 부모노드의 왼쪽 자식인 경우
-	x->Parent->Color = COLOR::BLACK;
-	grandparent(x)->Color = COLOR::RED;
-	if (IsLeftChild(x->Parent))
-		RightRotation(x->Parent);
-	else
-		LeftRotation(x->Parent);
+	if (uncle(x) && uncle(x)->Color == COLOR::BLACK)
+	{
+		x->Parent->Color = COLOR::BLACK;
+		grandparent(x)->Color = COLOR::RED;
+		if (IsLeftChild(x->Parent))
+			RightRotation(x->Parent);
+		else
+			LeftRotation(x->Parent);
+	}
 }
 
 bool RedBlackTree::IsLeftChild(Node* x)
@@ -193,10 +209,10 @@ bool RedBlackTree::IsRightChild(Node* x)
 
 Node* RedBlackTree::grandparent(Node* n)
 {
-	if (n->Parent == nullptr)
+	if (n->Parent->Parent == nullptr)
 		return nullptr;
 
-	return n->Parent;
+	return n->Parent->Parent;
 }
 
 Node* RedBlackTree::uncle(Node* n)
@@ -204,7 +220,7 @@ Node* RedBlackTree::uncle(Node* n)
 	Node* node = grandparent(n);
 	if ( node == nullptr)
 		return nullptr;
-	if (node->LeftChild == n)
+	if (node->LeftChild == n->Parent)
 		return node->RightChild;
 	else
 		return node->LeftChild;
