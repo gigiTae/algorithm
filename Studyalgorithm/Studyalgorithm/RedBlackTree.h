@@ -1,46 +1,46 @@
-#pragma once
+	#pragma once
 
-enum class COLOR
-{
-	BLACK,
-	RED,
-};
+	enum class COLOR
+	{
+		BLACK,
+		RED,
+	};
 
-struct Node
-{
-	int iKey;
-	COLOR Color;
-	Node* Parent;
-	Node* LeftChild;
-	Node* RightChild;
+	struct Node
+	{
+		int iKey;
+		COLOR Color;
+		Node* Parent;
+		Node* LeftChild;
+		Node* RightChild;
 
-	Node();
-	~Node();
-};
+		Node();
+		~Node();
+	};
 
-class RedBlackTree
-{
-private:
-	Node* Root;
-	Node* Leaf;
-public:
-	void insert(int _key);
-	Node* find(int _key);
+	class RedBlackTree
+	{
+	private:
+		Node* Root;
+		Node* Leaf;
+	public:
+		void insert(int _key);
+		Node* find(int _key);
 
-private:
-	void RightRotation(Node* x);
-	void LeftRotation(Node* x);
-	void InsertFix(Node* x);
-	bool IsRightChild(Node* x);
-	bool IsLeftChild(Node* x);
+	private:
+		void RightRotation(Node* x);
+		void LeftRotation(Node* x);
+		void InsertFix(Node* x);
+		bool IsRightChild(Node* x);
+		bool IsLeftChild(Node* x);	
 
-private:
-	Node* grandparent(Node* n);
-	Node* uncle(Node* n);
+	private:
+		Node* grandparent(Node* n);
+		Node* uncle(Node* n);
 
-public:
-	RedBlackTree();
-	~RedBlackTree();
+	public:
+		RedBlackTree();
+		~RedBlackTree();
 
-};
+	};
 

@@ -154,11 +154,8 @@ void RedBlackTree::InsertFix(Node* x)
 		x->Parent->Color = COLOR::BLACK;
 		x->Parent->Parent->Color = COLOR::RED;
 		x = x->Parent->Parent;
-		if (Root == x)
-		{
-			x->Color = COLOR::BLACK;
-			return;
-		}
+		InsertFix(x);
+		return;
 	}
 	// case2:새로 삽입한 노드가 부모노드의 오른쪽 자식인 경우
 	if (IsRightChild(x->Parent) && IsLeftChild(x))
