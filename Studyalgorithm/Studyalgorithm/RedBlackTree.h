@@ -1,5 +1,4 @@
 #pragma once
-//https://gist.github.com/gowoonsori/a725e29ef1880f0592fe5760f4908c6b 레드블랙트리 코드
 
 enum class COLOR
 {
@@ -29,8 +28,14 @@ public:
 	Node* find(int _key);
 
 private:
-	void RightRotation();
-	void LeftRotation();
+	void RightRotation(Node* x);
+	void LeftRotation(Node* x);
+	void InsertFix(Node* x);
+	bool IsLeftChild(Node* x);
+	bool IsRightChild(Node* x);
+public:
+	Node* grandparent(Node* n);
+	Node* uncle(Node* n);
 
 public:
 	RedBlackTree();
