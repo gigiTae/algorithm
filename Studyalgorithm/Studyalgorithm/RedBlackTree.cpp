@@ -308,9 +308,9 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator++()
 	return *this;
 }
 
-RedBlackTree::iterator& RedBlackTree::iterator::operator--()
+RedBlackTree::iterator& RedBlackTree::iterator::operator--() 
 {
-
+	
 
 	return *this;
 }
