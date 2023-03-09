@@ -29,6 +29,7 @@
 		void insert(int _key);
 		Node* find(int _key);
 		iterator& begin();
+		iterator& rbegin();
 		iterator& end();
 
 	private:

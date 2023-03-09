@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 #include "RedBlackTree.h"
 #include <random>
+#include <map>
+
 using namespace std;
 
 int main()
@@ -18,13 +20,14 @@ int main()
 	std::uniform_int_distribution<int> dis(0, 10000);  
 
 	RedBlackTree t;
-
-	for (int i = 0; i < 3000; ++i)
+	map<int, int> c;
+	
+	for (int i = 0; i < 1000; ++i)
 	{
 		int num = dis(gen);
 		t.insert(num);
 	}
-	for (auto iter = t.begin(); iter != t.end(); ++iter)
+	for (auto iter = t.rbegin(); iter != t.begin(); --iter)
 	{
 		cout << *iter << '\n';
 	 }

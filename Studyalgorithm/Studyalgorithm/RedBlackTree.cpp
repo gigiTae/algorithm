@@ -1,4 +1,5 @@
 #include "RedBlackTree.h"
+#include <assert.h>
 
 Node::Node()
 	:iKey(0)
@@ -78,6 +79,8 @@ Node* RedBlackTree::find(int _key)
 
 RedBlackTree::iterator& RedBlackTree::begin()
 {
+	assert(Root);
+
 	iterator* iter = new iterator;
 	iter->tree = this;
 	Node* leaf = Leaf;
@@ -90,12 +93,28 @@ RedBlackTree::iterator& RedBlackTree::begin()
 	return *iter;
 }
 
+RedBlackTree::iterator& RedBlackTree::rbegin()
+{
+	assert(Root);
+
+	iterator* iter = new iterator;
+	iter->tree = this;
+	Node* leaf = Leaf;
+	Node* node = Root;
+	
+	while (node->RightChild != leaf)
+		node = node->RightChild;
+	iter->node = node;
+
+	return *iter;
+}
+
 RedBlackTree::iterator& RedBlackTree::end()
 {
+	assert(Root);
 	iterator* iter = new iterator;
 	iter->node = nullptr;
 	iter->tree = this;
-
 	return *iter;
 }
 
@@ -260,12 +279,14 @@ RedBlackTree::~RedBlackTree()
 
 int RedBlackTree::iterator::operator*()
 {
+	assert(node);
 	return node->iKey;
 }
 
 RedBlackTree::iterator& RedBlackTree::iterator::operator++()
 {
 	Node* nPtr = this->node;
+	assert(nPtr);
 	Node* leaf = tree->Leaf;
 	// #1 오른쪽 자식이 있음 
 	if (nPtr->RightChild != leaf)
@@ -277,20 +298,10 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator++()
 		}
 		this->node = nPtr;
 	}
-	else if (nPtr->Parent == nullptr) // #2 오른쪽 자식이 없고 부모도 없음
-	{
-		this->node = nullptr;
-	}
-	else if (tree->IsLeftChild(nPtr)) //  부모의 왼쪽
-	{
-		nPtr = nPtr->Parent;
-		this->node = nPtr;
-	}
 	else // 부모의 오른쪽 자식이고 오른쪽 자식이 없음
 	{
 		while (true)
 		{
-			nPtr = nPtr->Parent;
 			if (nPtr->Parent == nullptr)
 			{
 				this->node = nullptr;
@@ -302,15 +313,45 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator++()
 				this->node = nPtr;
 				break;
 			}	
+			nPtr = nPtr->Parent;
 		}
 	}
 
 	return *this;
 }
 
-RedBlackTree::iterator& RedBlackTree::iterator::operator--() 
+RedBlackTree::iterator& RedBlackTree::iterator::operator--()
 {
-	
+	Node* nPtr = this->node;
+	Node* leaf = tree->Leaf;
+	// #0 end iterator 인 경우 
+	if (nPtr == nullptr)
+		return tree->rbegin();
+	// #1 왼쪽자식
+	else if (nPtr->LeftChild != leaf)
+	{
+		nPtr = nPtr->LeftChild;
+		while (nPtr->RightChild != leaf)
+		{
+			nPtr = nPtr->RightChild;
+		}
+		this->node = nPtr;
+	}
+	else
+	{
+		while (true)
+		{
+			if (nPtr->Parent == nullptr)
+				assert(nullptr);
+			if (tree->IsRightChild(nPtr))
+			{
+				nPtr = nPtr->Parent;
+				this->node = nPtr;
+				break;
+			}
+			nPtr = nPtr->Parent;
+		}
+	}
 
 	return *this;
 }
