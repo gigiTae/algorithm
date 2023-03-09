@@ -62,19 +62,26 @@ void RedBlackTree::insert(int _key)
 	return;
 }
 
-Node* RedBlackTree::find(int _key)
+RedBlackTree::iterator& RedBlackTree::find(int _key)
 {
-	Node* iter = Root;
-	while (iter != Leaf)
+	iterator* iter = new iterator;
+	iter->tree = this;
+	Node* nPtr = this->Root;
+	while (nPtr != Leaf)
 	{
-		if (iter->iKey == _key)
-			return iter;
-		else if (iter->iKey > _key)
-			iter = iter->LeftChild;
+		if (nPtr->iKey == _key)
+		{
+			iter->node = nPtr;
+			return *iter;
+		}
+		else if (nPtr->iKey > _key)
+			nPtr = nPtr->LeftChild;
 		else
-			iter = iter->RightChild;
+			nPtr = nPtr->RightChild;
 	}
-	return nullptr;
+	nPtr = nullptr;
+	iter->node = nullptr;
+	return *iter;
 }
 
 RedBlackTree::iterator& RedBlackTree::begin()
@@ -246,7 +253,7 @@ bool RedBlackTree::IsRightChild(Node* x)
 	return false;
 }
 
-Node* RedBlackTree::grandparent(Node* n)
+Node* RedBlackTree::grandparent(const Node* n)
 {
 	if (n->Parent->Parent == nullptr)
 		return nullptr;
@@ -254,7 +261,7 @@ Node* RedBlackTree::grandparent(Node* n)
 	return n->Parent->Parent;
 }
 
-Node* RedBlackTree::uncle(Node* n)
+Node* RedBlackTree::uncle(const Node* n)
 {
 	Node* node = grandparent(n);
 	if ( node == nullptr)
@@ -274,6 +281,7 @@ RedBlackTree::RedBlackTree()
 
 RedBlackTree::~RedBlackTree()
 {
+
 	delete Leaf;
 }
 
@@ -379,4 +387,5 @@ RedBlackTree::iterator::iterator()
 
 RedBlackTree::iterator::~iterator()
 {
+	
 }

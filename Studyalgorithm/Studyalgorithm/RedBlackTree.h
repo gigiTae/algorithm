@@ -27,7 +27,7 @@
 		Node* Leaf;
 	public:
 		void insert(int _key);
-		Node* find(int _key);
+		iterator& find(int _key);
 		iterator& begin();
 		iterator& rbegin();
 		iterator& end();
@@ -40,8 +40,8 @@
 		bool IsLeftChild(Node* x);
 	
 	private:
-		Node* grandparent(Node* n);
-		Node* uncle(Node* n);
+		Node* grandparent(const Node* n);
+		Node* uncle(const Node* n);
 
 	public:
 		class iterator
