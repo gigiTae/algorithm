@@ -76,6 +76,29 @@ Node* RedBlackTree::find(int _key)
 	return nullptr;
 }
 
+RedBlackTree::iterator& RedBlackTree::begin()
+{
+	iterator* iter = new iterator;
+	iter->tree = this;
+	Node* leaf = Leaf;
+	Node* node = Root;
+
+	while (node->LeftChild != leaf)
+		node = node->LeftChild;
+	iter->node = node;
+
+	return *iter;
+}
+
+RedBlackTree::iterator& RedBlackTree::end()
+{
+	iterator* iter = new iterator;
+	iter->node = nullptr;
+	iter->tree = this;
+
+	return *iter;
+}
+
 void RedBlackTree::RightRotation(Node* x)
 {
 	Node* g = grandparent(x);
@@ -233,4 +256,86 @@ RedBlackTree::RedBlackTree()
 RedBlackTree::~RedBlackTree()
 {
 	delete Leaf;
+}
+
+int RedBlackTree::iterator::operator*()
+{
+	return node->iKey;
+}
+
+RedBlackTree::iterator& RedBlackTree::iterator::operator++()
+{
+	Node* nPtr = this->node;
+	Node* leaf = tree->Leaf;
+	// #1 오른쪽 자식이 있음 
+	if (nPtr->RightChild != leaf)
+	{
+		nPtr = nPtr->RightChild;
+		while (nPtr->LeftChild != leaf)
+		{
+			nPtr = nPtr->LeftChild;
+		}
+		this->node = nPtr;
+	}
+	else if (nPtr->Parent == nullptr) // #2 오른쪽 자식이 없고 부모도 없음
+	{
+		this->node = nullptr;
+	}
+	else if (tree->IsLeftChild(nPtr)) //  부모의 왼쪽
+	{
+		nPtr = nPtr->Parent;
+		this->node = nPtr;
+	}
+	else // 부모의 오른쪽 자식이고 오른쪽 자식이 없음
+	{
+		while (true)
+		{
+			nPtr = nPtr->Parent;
+			if (nPtr->Parent == nullptr)
+			{
+				this->node = nullptr;
+				break;
+			}
+			if (tree->IsLeftChild(nPtr))
+			{
+				nPtr = nPtr->Parent;
+				this->node = nPtr;
+				break;
+			}	
+		}
+	}
+
+	return *this;
+}
+
+RedBlackTree::iterator& RedBlackTree::iterator::operator--()
+{
+
+
+	return *this;
+}
+
+bool RedBlackTree::iterator::operator==(const iterator& _other)
+{
+	if (_other.node == node && _other.tree == tree)
+		return true;
+	return false;
+}
+
+bool RedBlackTree::iterator::operator!=(const iterator& _other)
+{
+	if (_other.node != node || _other.tree != tree)
+		return true;
+	return false;
+}
+
+
+RedBlackTree::iterator::iterator()
+	:node(nullptr)
+	,tree(nullptr)
+{
+}
+
+RedBlackTree::iterator::~iterator()
+{
 }
