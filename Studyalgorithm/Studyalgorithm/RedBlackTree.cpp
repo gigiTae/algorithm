@@ -330,6 +330,7 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator++()
 
 RedBlackTree::iterator& RedBlackTree::iterator::operator--()
 {
+<<<<<<< Updated upstream
 	Node* nPtr = this->node;
 	Node* leaf = tree->Leaf;
 	// #0 end iterator ÀÎ °æ¿ì 
@@ -360,6 +361,8 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator--()
 			nPtr = nPtr->Parent;
 		}
 	}
+=======
+>>>>>>> Stashed changes
 
 	return *this;
 }
