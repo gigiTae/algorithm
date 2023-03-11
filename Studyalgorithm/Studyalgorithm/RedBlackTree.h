@@ -27,6 +27,7 @@
 		Node* Leaf;
 	public:
 		void insert(int _key);
+		iterator& erase(iterator& iter);
 		iterator& find(int _key);
 		iterator& begin();
 		iterator& rbegin();
@@ -35,7 +36,10 @@
 	private:
 		void RightRotation(Node* x);
 		void LeftRotation(Node* x);
+
 		void InsertFix(Node* x);
+		void EraseFix(Node* x);
+
 		bool IsRightChild(Node* x);
 		bool IsLeftChild(Node* x);
 	
@@ -56,9 +60,12 @@
 			iterator& operator--();
 			bool operator ==(const iterator &_other);
 			bool operator !=(const iterator &_other);
-			
+
+
 		public:
 			iterator();
+			iterator(const iterator& _other);
+
 			~iterator();
 
 			friend class RedBlackTree;

@@ -14,54 +14,6 @@ Node::~Node()
 {
 }
 
-void RedBlackTree::insert(int _key)
-{
-	Node* node = new Node;
-	node->Color = COLOR::RED;
-	node->iKey = _key;
-	node->LeftChild = Leaf;
-	node->RightChild = Leaf;
-
-	// 처음으로 노드가 들어옴
-	if (Root == nullptr)
-	{
-		Root = node;
-		node->Color = COLOR::BLACK; // #1 루트노드는 검정색이다
-		return;
-	}
-
-	Node* iter = Root;
-	while (true)
-	{
-		if (iter->iKey > _key)
-		{
-			if (iter->LeftChild == Leaf) // 왼쪽자식이 리프
-			{
-				iter->LeftChild = node;
-				node->Parent = iter;
-				break;
-			}
-			else
-				iter = iter->LeftChild;
-		}
-		else
-		{
-			if (iter->RightChild == Leaf)
-			{
-				iter->RightChild = node;
-				node->Parent = iter;
-				break;
-			}
-			else
-				iter = iter->RightChild;
-		}
-	}
-
-	InsertFix(node);
-
-	return;
-}
-
 RedBlackTree::iterator& RedBlackTree::find(int _key)
 {
 	iterator* iter = new iterator;
@@ -183,6 +135,54 @@ void RedBlackTree::LeftRotation(Node* x)
 
 }
 
+void RedBlackTree::insert(int _key)
+{
+	Node* node = new Node;
+	node->Color = COLOR::RED;
+	node->iKey = _key;
+	node->LeftChild = Leaf;
+	node->RightChild = Leaf;
+
+	// 처음으로 노드가 들어옴
+	if (Root == nullptr)
+	{
+		Root = node;
+		node->Color = COLOR::BLACK; // #1 루트노드는 검정색이다
+		return;
+	}
+
+	Node* iter = Root;
+	while (true)
+	{
+		if (iter->iKey > _key)
+		{
+			if (iter->LeftChild == Leaf) // 왼쪽자식이 리프
+			{
+				iter->LeftChild = node;
+				node->Parent = iter;
+				break;
+			}
+			else
+				iter = iter->LeftChild;
+		}
+		else
+		{
+			if (iter->RightChild == Leaf)
+			{
+				iter->RightChild = node;
+				node->Parent = iter;
+				break;
+			}
+			else
+				iter = iter->RightChild;
+		}
+	}
+
+	InsertFix(node);
+
+	return;
+}
+
 void RedBlackTree::InsertFix(Node* x)
 {
 	// Root 노드 
@@ -227,6 +227,89 @@ void RedBlackTree::InsertFix(Node* x)
 		else
 			LeftRotation(x->Parent);
 	}
+}
+
+
+RedBlackTree::iterator& RedBlackTree::erase(iterator& iter) // 반환값은 중위후속자이다.
+{
+	Node* iNode = iter.node;
+	iterator Successoriter = iter;
+	++Successoriter;
+	Node* Successor = Successoriter.node;
+	// 삭제할 노드가 자식이 없는 경우
+	if (iNode->LeftChild == Leaf && iNode->RightChild == Leaf)
+	{
+		if (iNode->Parent != nullptr)
+		{
+			if (IsLeftChild(iNode))
+				iNode->Parent->LeftChild = Leaf;
+			else
+				iNode->Parent->RightChild = Leaf;
+		}
+		else
+		{
+			// 루트노드인 경우
+			iter.tree->Root = nullptr;
+		}
+		delete iNode;
+	}
+	// 삭제할 노드가 2개의 자식을 가진 경우
+	else if (iNode->LeftChild != Leaf && iNode->RightChild != Leaf)
+	{
+		iNode->iKey = Successor->iKey;
+		iNode->Color = Successor->Color;
+
+		if (Successor->LeftChild == Leaf && Successor->RightChild == Leaf) // 리프 노드
+		{
+			if (IsLeftChild(Successor))
+				Successor->Parent->LeftChild = Leaf;
+			else
+				Successor->Parent->RightChild = Leaf;
+		}
+		else if (Successor->LeftChild != Leaf) // 왼쪽 자식을 가짐
+		{
+			if (IsLeftChild(Successor))
+				Successor->Parent->LeftChild = Successor->LeftChild;
+			else
+				Successor->Parent->RightChild = Successor->LeftChild;
+		}
+		else // 오른쪽 자식을 가짐
+		{
+			if (IsLeftChild(Successor)) 
+				Successor->Parent->LeftChild = Successor->RightChild;
+			else
+				Successor->Parent->RightChild = Successor->RightChild;
+		}
+		delete Successor;
+	}
+	else // 자식노드를 한개 가진 경우
+	{
+		Node* Child;
+		if (iNode->LeftChild == Leaf)
+			Child = iNode->RightChild;
+		else
+			Child = iNode->LeftChild;
+		if (iNode->Parent != nullptr)
+		{
+			Child->Parent = iNode->Parent;
+			if (IsLeftChild(iNode))
+				iNode->Parent->LeftChild = Child;
+			else
+				iNode->Parent->RightChild = Child;
+		}
+		else
+		{
+			Child->Parent = nullptr;
+			Root = Child;
+		}
+		delete iNode;
+	}
+
+	EraseFix(0);
+}
+
+void RedBlackTree::EraseFix(Node* x)
+{
 }
 
 bool RedBlackTree::IsLeftChild(Node* x)
@@ -330,7 +413,6 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator++()
 
 RedBlackTree::iterator& RedBlackTree::iterator::operator--()
 {
-<<<<<<< Updated upstream
 	Node* nPtr = this->node;
 	Node* leaf = tree->Leaf;
 	// #0 end iterator 인 경우 
@@ -361,8 +443,6 @@ RedBlackTree::iterator& RedBlackTree::iterator::operator--()
 			nPtr = nPtr->Parent;
 		}
 	}
-=======
->>>>>>> Stashed changes
 
 	return *this;
 }
@@ -386,6 +466,12 @@ RedBlackTree::iterator::iterator()
 	:node(nullptr)
 	,tree(nullptr)
 {
+}
+
+RedBlackTree::iterator::iterator(const iterator& _other)
+{
+	node = _other.node;
+	tree = _other.tree;
 }
 
 RedBlackTree::iterator::~iterator()
