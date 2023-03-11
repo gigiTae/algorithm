@@ -1,4 +1,5 @@
 #include "RedBlackTree.h"
+#include <iostream>
 #include <assert.h>
 
 Node::Node()
@@ -38,7 +39,8 @@ RedBlackTree::iterator& RedBlackTree::find(int _key)
 
 RedBlackTree::iterator& RedBlackTree::begin()
 {
-	assert(Root);
+	if (Root == nullptr)
+		return end();
 
 	iterator* iter = new iterator;
 	iter->tree = this;
@@ -70,11 +72,19 @@ RedBlackTree::iterator& RedBlackTree::rbegin()
 
 RedBlackTree::iterator& RedBlackTree::end()
 {
-	assert(Root);
 	iterator* iter = new iterator;
 	iter->node = nullptr;
 	iter->tree = this;
 	return *iter;
+}
+
+void RedBlackTree::Print()
+{
+	for (auto iter = begin(); iter != end(); ++iter)
+	{
+		std::cout << *iter << ' ';
+	}
+	std::cout << '\n';
 }
 
 void RedBlackTree::RightRotation(Node* x)
@@ -233,24 +243,51 @@ void RedBlackTree::InsertFix(Node* x)
 RedBlackTree::iterator& RedBlackTree::erase(iterator& iter) // 반환값은 중위후속자이다.
 {
 	Node* iNode = iter.node;
-	iterator Successoriter = iter;
+	iterator Returniter = iter;    // 리턴 이터레이터
+	bool IsBlack = false;          // 삭제한 노드의 색깔 false : RED ture: BLACK
+
+	iterator Successoriter = iter; // 중위 후속자
 	++Successoriter;
 	Node* Successor = Successoriter.node;
+
 	// 삭제할 노드가 자식이 없는 경우
 	if (iNode->LeftChild == Leaf && iNode->RightChild == Leaf)
 	{
 		if (iNode->Parent != nullptr)
 		{
+			Node* DoubleBlack = new Node;
+			DoubleBlack->Color = COLOR::BLACK;
+			DoubleBlack->Parent = iNode->Parent;
 			if (IsLeftChild(iNode))
-				iNode->Parent->LeftChild = Leaf;
+				iNode->Parent->LeftChild = DoubleBlack;
 			else
-				iNode->Parent->RightChild = Leaf;
+				iNode->Parent->RightChild = DoubleBlack;
+			Returniter.node = DoubleBlack;
+
+
+			if (iNode->Color == COLOR::BLACK)
+			{
+				EraseFix(Returniter.node);
+			}
+			else
+			{
+				if (IsLeftChild(DoubleBlack))
+					DoubleBlack->Parent->LeftChild = Leaf;
+				else
+					DoubleBlack->Parent->RightChild = Leaf;
+
+				delete DoubleBlack;
+			}
+			return Successoriter;
 		}
 		else
 		{
 			// 루트노드인 경우
 			iter.tree->Root = nullptr;
+			Returniter.node = nullptr;
 		}
+		if (iNode->Color == COLOR::BLACK)
+			IsBlack = true;
 		delete iNode;
 	}
 	// 삭제할 노드가 2개의 자식을 가진 경우
@@ -280,6 +317,8 @@ RedBlackTree::iterator& RedBlackTree::erase(iterator& iter) // 반환값은 중위후속
 			else
 				Successor->Parent->RightChild = Successor->RightChild;
 		}
+		if (Successor->Color == COLOR::BLACK)
+			IsBlack = true;
 		delete Successor;
 	}
 	else // 자식노드를 한개 가진 경우
@@ -302,14 +341,102 @@ RedBlackTree::iterator& RedBlackTree::erase(iterator& iter) // 반환값은 중위후속
 			Child->Parent = nullptr;
 			Root = Child;
 		}
+		if (iNode->Color == COLOR::BLACK)
+			IsBlack = true;
 		delete iNode;
+		Returniter.node = Child;
 	}
 
-	EraseFix(0);
+	if (IsBlack == true)
+		EraseFix(Returniter.node);
+
+	return Returniter;
 }
 
 void RedBlackTree::EraseFix(Node* x)
 {
+	if (x == nullptr) // end이면 반환
+	{
+		return;
+	}
+	else if (x->Color == COLOR::RED || x->Parent == nullptr)// 대체된 자리를 검은색으로 칠한다.
+	{
+		x->Color = COLOR::BLACK;
+		return;
+	}
+	bool LeftChild = IsLeftChild(x); 
+	Node* Sibling; // 형제노드
+	if (LeftChild == true)
+		Sibling = x->Parent->RightChild;
+	else
+		Sibling = x->Parent->LeftChild;
+	
+	// Case Change
+	if (Sibling->Color == COLOR::RED)
+	{
+		Node* Parent = x->Parent;
+		Sibling->Color = COLOR::BLACK;
+		x->Parent->Color = COLOR::RED;
+
+		if (LeftChild == true)
+			LeftRotation(Sibling);
+		else
+			RightRotation(Sibling);
+
+		if (LeftChild == true)
+			Sibling = x->Parent->RightChild;
+		else
+			Sibling = x->Parent->LeftChild;
+	}
+	// Case A
+	if (Sibling->LeftChild->Color == COLOR::BLACK && Sibling->RightChild->Color ==COLOR::BLACK)
+	{
+		Sibling->Color = COLOR::RED;
+		if (x->Parent->Color == COLOR::RED)
+			x->Parent->Color = COLOR::BLACK;
+		else
+			EraseFix(x->Parent);
+	}
+	// Case B
+	else if (Sibling->LeftChild->Color == COLOR::RED && Sibling->RightChild->Color == COLOR::BLACK && 
+		LeftChild == true)
+	{
+		Sibling->Color = COLOR::RED;
+		Sibling->LeftChild->Color = COLOR::BLACK;
+		RightRotation(Sibling->LeftChild);
+	}
+	else if (Sibling->RightChild->Color == COLOR::RED && Sibling->LeftChild->Color == COLOR::BLACK &&
+		LeftChild == false)
+	{
+		Sibling->Color = COLOR::RED;
+		Sibling->RightChild->Color = COLOR::BLACK;
+		LeftRotation(Sibling->RightChild);
+	}
+	// Case C
+	else if (LeftChild == true && Sibling->RightChild->Color == COLOR::RED)
+	{
+		Sibling->Color = x->Parent->Color;
+		Sibling->RightChild->Color = COLOR::BLACK;
+		x->Parent->Color = COLOR::BLACK;
+		LeftRotation(Sibling);
+	}
+	else if (LeftChild == false && Sibling->LeftChild->Color == COLOR::RED)
+	{
+		Sibling->Color = x->Parent->Color;
+		Sibling->LeftChild->Color = COLOR::BLACK;
+		x->Parent->Color = COLOR::BLACK;
+		RightRotation(Sibling);
+	}
+
+	if (x->LeftChild == nullptr) 
+	{
+		if (IsLeftChild(x))
+			x->Parent->LeftChild = Leaf;
+		else
+			x->Parent->RightChild = Leaf;
+		delete x;
+	}
+
 }
 
 bool RedBlackTree::IsLeftChild(Node* x)
@@ -368,8 +495,8 @@ RedBlackTree::~RedBlackTree()
 	delete Leaf;
 }
 
-int RedBlackTree::iterator::operator*()
-{
+int RedBlackTree::iterator::operator*() 
+{ 
 	assert(node);
 	return node->iKey;
 }

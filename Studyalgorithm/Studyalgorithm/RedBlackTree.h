@@ -33,6 +33,9 @@
 		iterator& rbegin();
 		iterator& end();
 
+	public:
+		void Print();
+
 	private:
 		void RightRotation(Node* x);
 		void LeftRotation(Node* x);
