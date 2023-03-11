@@ -225,6 +225,7 @@
     <ClCompile Include="알고리즘수업-피보나치수1.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
+    <ClCompile Include="암호만들기.cpp" />
     <ClCompile Include="연산자 끼워넣기.cpp" />
     <ClCompile Include="연속합.cpp" />
     <ClCompile Include="영수증.cpp" />
