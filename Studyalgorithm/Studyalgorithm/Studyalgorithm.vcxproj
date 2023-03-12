@@ -156,6 +156,7 @@
     <ClCompile Include="그룹_단어_체커.cpp" />
     <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp" />
     <ClCompile Include="나머지 합.cpp" />
+    <ClCompile Include="나무자르기.cpp" />
     <ClCompile Include="나이순_정렬.cpp" />
     <ClCompile Include="너의 평점은.cpp" />
     <ClCompile Include="네번째점.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="덱리스트.cpp" />
     <ClCompile Include="동전O.cpp" />
     <ClCompile Include="듣보잡.cpp" />
+    <ClCompile Include="랜선자르기.cpp" />
     <ClCompile Include="문자열.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="문자열집합.cpp" />
@@ -237,6 +239,7 @@
     <ClCompile Include="이항계수와 쿼리.cpp" />
     <ClCompile Include="잃어버린 괄호.cpp" />
     <ClCompile Include="재귀의 귀재.cpp" />
+    <ClCompile Include="절댓값힙.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
     <ClCompile Include="정수삼각형.cpp" />
     <ClCompile Include="제로.cpp" />
@@ -250,7 +253,9 @@
     <ClCompile Include="직사각형에서 탈출.cpp" />
     <ClCompile Include="체스판 다시 칠하기 2.cpp" />
     <ClCompile Include="체스판다시칠하기.cpp" />
+    <ClCompile Include="최대힙.cpp" />
     <ClCompile Include="최댓값.cpp" />
+    <ClCompile Include="최소 힙.cpp" />
     <ClCompile Include="최소_최대.cpp" />
     <ClCompile Include="카드2.cpp" />
     <ClCompile Include="커트라인.cpp" />

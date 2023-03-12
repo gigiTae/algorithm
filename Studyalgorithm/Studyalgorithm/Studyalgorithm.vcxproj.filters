@@ -434,6 +434,21 @@
     <ClCompile Include="암호만들기.cpp">
       <Filter>백준단계\문자열1</Filter>
     </ClCompile>
+    <ClCompile Include="랜선자르기.cpp">
+      <Filter>백준단계\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="나무자르기.cpp">
+      <Filter>백준단계\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="최대힙.cpp">
+      <Filter>백준단계\우선순위</Filter>
+    </ClCompile>
+    <ClCompile Include="최소 힙.cpp">
+      <Filter>백준단계\우선순위</Filter>
+    </ClCompile>
+    <ClCompile Include="절댓값힙.cpp">
+      <Filter>백준단계\우선순위</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -525,6 +540,12 @@
     </Filter>
     <Filter Include="알고리즘\RedBlackTree">
       <UniqueIdentifier>{a92a33b2-8fea-4294-a2aa-469d8d1da8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\이분 탐색">
+      <UniqueIdentifier>{5d46b969-7e3e-4d04-b2ec-61f769077c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\우선순위">
+      <UniqueIdentifier>{e7f02772-7bc7-4751-87bc-b784bd14a2bd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
