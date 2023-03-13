@@ -233,6 +233,7 @@
     <ClCompile Include="연속합.cpp" />
     <ClCompile Include="영수증.cpp" />
     <ClCompile Include="영화감독 숀.cpp" />
+    <ClCompile Include="오동큰수.cpp" />
     <ClCompile Include="오븐시계.cpp" />
     <ClCompile Include="오큰수.cpp" />
     <ClCompile Include="요세푸스 푸스문제.cpp" />

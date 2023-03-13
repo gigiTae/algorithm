@@ -455,6 +455,9 @@
     <ClCompile Include="오큰수.cpp">
       <Filter>백준단계\스택2</Filter>
     </ClCompile>
+    <ClCompile Include="오동큰수.cpp">
+      <Filter>백준단계\스택2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
