@@ -27,10 +27,7 @@
 		Node* Leaf;
 	public:
 		void insert(int _key);
-<<<<<<< Updated upstream
-=======
-		
->>>>>>> Stashed changes
+
 		iterator& erase(iterator& iter);
 		iterator& find(int _key);
 		iterator& begin();

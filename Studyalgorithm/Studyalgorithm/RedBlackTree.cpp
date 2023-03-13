@@ -15,65 +15,7 @@ Node::~Node()
 {
 }
 
-<<<<<<< Updated upstream
-=======
-void RedBlackTree::insert(int _key)
-{
-	Node* node = new Node;
-	node->Color = COLOR::RED;
-	node->iKey = _key;
-	node->LeftChild = Leaf;
-	node->RightChild = Leaf;
 
-	// 처음으로 노드가 들어옴
-	if (Root == nullptr)
-	{
-		Root = node;
-		node->Color = COLOR::BLACK; // #1 루트노드는 검정색이다
-		return;
-	}
-
-	Node* iter = Root;
-	while (true)
-	{
-		if (iter->iKey > _key)
-		{
-			if (iter->LeftChild == Leaf) // 왼쪽자식이 리프
-			{
-				iter->LeftChild = node;
-				node->Parent = iter;
-				break;
-			}
-			else
-				iter = iter->LeftChild;
-		}
-		else
-		{
-			if (iter->RightChild == Leaf)
-			{
-				iter->RightChild = node;
-				node->Parent = iter;
-				break;
-			}
-			else
-				iter = iter->RightChild;
-		}
-	}
-
-	InsertFix(node);
-
-	return;
-}
-
-RedBlackTree::iterator& RedBlackTree::erase(iterator& iter)
-{
-	iterator InOrderProceesor = ++iter;
-	
-
-
-}
-
->>>>>>> Stashed changes
 RedBlackTree::iterator& RedBlackTree::find(int _key)
 {
 	iterator* iter = new iterator;

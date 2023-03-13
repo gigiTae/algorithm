@@ -1,6 +1,22 @@
-<<<<<<< Updated upstream
-﻿  main.cpp
-  Studyalgorithm.vcxproj -> C:\Users\PC\Desktop\cpp\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
-=======
-﻿  Studyalgorithm.vcxproj -> C:\Users\User\Desktop\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
->>>>>>> Stashed changes
+﻿  01타일.cpp
+  RedBlackTree.cpp
+  RGB거리.cpp
+  계단오르기.cpp
+  골드바흐의추측.cpp
+  X보다_작은_수.cpp
+  개수세기.cpp
+  베트트랑공준.cpp
+  별찍기10.cpp
+  수열.cpp
+  수정렬.cpp
+  알파벳_찾기.cpp
+  암호만들기.cpp
+  좌표정렬하기.cpp
+  좌표정렬하기2.cpp
+  평균.cpp
+  회전하는 큐.cpp
+  코드를 생성하고 있습니다...
+C:\Users\User\Desktop\algorithm\Studyalgorithm\Studyalgorithm\RedBlackTree.cpp(282): warning C4172: 지역 변수 또는 임시: Successoriter의 주소를 반환하고 있습니다.
+C:\Users\User\Desktop\algorithm\Studyalgorithm\Studyalgorithm\RedBlackTree.cpp(354): warning C4172: 지역 변수 또는 임시: Returniter의 주소를 반환하고 있습니다.
+  LINK : C:\Users\User\Desktop\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  Studyalgorithm.vcxproj -> C:\Users\User\Desktop\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
