@@ -1,5 +1,6 @@
 #include "RedBlackTree.h"
 #include <iostream>
+#include <queue>
 #include <assert.h>
 
 Node::Node()
@@ -492,6 +493,19 @@ RedBlackTree::RedBlackTree()
 
 RedBlackTree::~RedBlackTree()
 {
+	std::queue<Node*> q;
+	q.push(Root);
+
+	while (!q.empty())
+	{
+		Node* nPtr = q.front();
+		if (nPtr->LeftChild != Leaf)
+			q.push(nPtr->LeftChild);
+		if (nPtr->RightChild != Leaf)
+			q.push(nPtr->RightChild);
+		delete nPtr;
+		q.pop();
+	}
 
 	delete Leaf;
 }
