@@ -449,6 +449,12 @@
     <ClCompile Include="절댓값힙.cpp">
       <Filter>백준단계\우선순위</Filter>
     </ClCompile>
+    <ClCompile Include="문자열폭발.cpp">
+      <Filter>백준단계\스택2</Filter>
+    </ClCompile>
+    <ClCompile Include="오큰수.cpp">
+      <Filter>백준단계\스택2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -546,6 +552,9 @@
     </Filter>
     <Filter Include="백준단계\우선순위">
       <UniqueIdentifier>{e7f02772-7bc7-4751-87bc-b784bd14a2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\스택2">
+      <UniqueIdentifier>{532a9b7b-c25f-425f-a27b-8dd0da886c25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,4 @@
-﻿  RedBlackTree.cpp
-C:\Users\User\Desktop\algorithm\Studyalgorithm\Studyalgorithm\RedBlackTree.cpp(283): warning C4172: 지역 변수 또는 임시: Successoriter의 주소를 반환하고 있습니다.
-C:\Users\User\Desktop\algorithm\Studyalgorithm\Studyalgorithm\RedBlackTree.cpp(355): warning C4172: 지역 변수 또는 임시: Returniter의 주소를 반환하고 있습니다.
+﻿  main.cpp
+  오큰수.cpp
+  코드를 생성하고 있습니다...
   Studyalgorithm.vcxproj -> C:\Users\User\Desktop\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
