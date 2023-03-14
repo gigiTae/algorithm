@@ -482,6 +482,12 @@
     <ClCompile Include="비트 연산자.cpp">
       <Filter>C++공부</Filter>
     </ClCompile>
+    <ClCompile Include="유기농 배추.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탐색.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

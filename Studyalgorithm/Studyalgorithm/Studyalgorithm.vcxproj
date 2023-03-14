@@ -187,6 +187,7 @@
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="문자열집합.cpp" />
     <ClCompile Include="문자열폭발.cpp" />
+    <ClCompile Include="미로탐색.cpp" />
     <ClCompile Include="바보상수.cpp" />
     <ClCompile Include="바이러스.cpp" />
     <ClCompile Include="벌집.cpp" />
@@ -245,6 +246,7 @@
     <ClCompile Include="오븐시계.cpp" />
     <ClCompile Include="오큰수.cpp" />
     <ClCompile Include="요세푸스 푸스문제.cpp" />
+    <ClCompile Include="유기농 배추.cpp" />
     <ClCompile Include="이항계수2.cpp" />
     <ClCompile Include="이항계수3.cpp" />
     <ClCompile Include="이항계수와 쿼리.cpp" />
