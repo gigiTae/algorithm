@@ -48,16 +48,16 @@
       <Filter>백준단계\조건문</Filter>
     </ClCompile>
     <ClCompile Include="나누기소수점.cpp">
-      <Filter>백준단계\분할정복\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="곱셈.cpp">
-      <Filter>백준단계\분할정복\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="빠른A+B.cpp">
-      <Filter>백준단계\분할정복\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="영수증.cpp">
-      <Filter>백준단계\분할정복\반복문</Filter>
+      <Filter>백준단계\반복문</Filter>
     </ClCompile>
     <ClCompile Include="한수.cpp">
       <Filter>백준단계\함수</Filter>
@@ -479,6 +479,9 @@
     <ClCompile Include="단지번호붙이기.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="비트 연산자.cpp">
+      <Filter>C++공부</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -580,7 +583,7 @@
     <Filter Include="백준단계\그래프순회">
       <UniqueIdentifier>{652bfce2-2a01-4fa9-a15c-b45deb654b74}</UniqueIdentifier>
     </Filter>
-    <Filter Include="백준단계\분할정복\반복문">
+    <Filter Include="백준단계\반복문">
       <UniqueIdentifier>{ff9f431e-2339-4c94-a9f6-f6338535ac4f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
