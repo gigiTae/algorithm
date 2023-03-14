@@ -186,6 +186,7 @@
     <ClCompile Include="문자열집합.cpp" />
     <ClCompile Include="문자열폭발.cpp" />
     <ClCompile Include="바보상수.cpp" />
+    <ClCompile Include="바이러스.cpp" />
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
     <ClCompile Include="별찍기10.cpp" />
@@ -220,11 +221,15 @@
     <ClCompile Include="신나는 함수 실행.cpp" />
     <ClCompile Include="알고리즘 수업 - 점근적 표기1.cpp" />
     <ClCompile Include="알고리즘 수업 -알고리즘의 수행 시간 5.cpp" />
+    <ClCompile Include="알고리즘 수업-깊이 우선 탐색2.cpp" />
+    <ClCompile Include="알고리즘 수업-너비 우선 탐색1.cpp" />
+    <ClCompile Include="알고리즘 수업-너비 우선 탐색2.cpp" />
     <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 1.cpp" />
     <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 2.cpp" />
     <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 3cpp.cpp" />
     <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 4.cpp" />
     <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 6.cpp" />
+    <ClCompile Include="알고리즘수업- 깊이 우선 탐색1.cpp" />
     <ClCompile Include="알고리즘수업-피보나치수1.cpp" />
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />

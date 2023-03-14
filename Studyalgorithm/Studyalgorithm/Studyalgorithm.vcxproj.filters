@@ -458,6 +458,21 @@
     <ClCompile Include="오동큰수.cpp">
       <Filter>백준단계\스택2</Filter>
     </ClCompile>
+    <ClCompile Include="알고리즘수업- 깊이 우선 탐색1.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-깊이 우선 탐색2.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-너비 우선 탐색1.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-너비 우선 탐색2.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="바이러스.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -558,6 +573,9 @@
     </Filter>
     <Filter Include="백준단계\스택2">
       <UniqueIdentifier>{532a9b7b-c25f-425f-a27b-8dd0da886c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\그래프순회">
+      <UniqueIdentifier>{652bfce2-2a01-4fa9-a15c-b45deb654b74}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
