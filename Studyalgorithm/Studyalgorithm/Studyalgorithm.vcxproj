@@ -192,6 +192,7 @@
     <ClCompile Include="미로탐색.cpp" />
     <ClCompile Include="바보상수.cpp" />
     <ClCompile Include="바이러스.cpp" />
+    <ClCompile Include="뱀과 사다리 게임.cpp" />
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
     <ClCompile Include="별찍기10.cpp" />
@@ -281,6 +282,8 @@
     <ClCompile Include="큐2.cpp" />
     <ClCompile Include="크로아티아알파벳.cpp" />
     <ClCompile Include="큰_수A+B.cpp" />
+    <ClCompile Include="토마토2cpp.cpp" />
+    <ClCompile Include="토마토cpp.cpp" />
     <ClCompile Include="통계학.cpp" />
     <ClCompile Include="파도반수열.cpp" />
     <ClCompile Include="팩토리얼cpp.cpp" />
