@@ -488,6 +488,21 @@
     <ClCompile Include="미로탐색.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="숨바꼭질.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질2cpp.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDots.cpp">
+      <Filter>백준단계\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분그래프.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="나이트이동.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

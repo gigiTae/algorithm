@@ -145,6 +145,7 @@
     <ClCompile Include="SelfNumber.cpp" />
     <ClCompile Include="string_to_int.cpp" />
     <ClCompile Include="ThreeDice.cpp" />
+    <ClCompile Include="ThreeDots.cpp" />
     <ClCompile Include="가장 긴 증가하는 부분 수열.cpp" />
     <ClCompile Include="가장긴바이토닉부분수열.cpp" />
     <ClCompile Include="계단오르기.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="나머지 합.cpp" />
     <ClCompile Include="나무자르기.cpp" />
     <ClCompile Include="나이순_정렬.cpp" />
+    <ClCompile Include="나이트이동.cpp" />
     <ClCompile Include="너의 평점은.cpp" />
     <ClCompile Include="네번째점.cpp" />
     <ClCompile Include="다리놓기.cpp" />
@@ -215,6 +217,8 @@
     <ClCompile Include="수열.cpp" />
     <ClCompile Include="수정렬.cpp" />
     <ClCompile Include="수정렬하기3.cpp" />
+    <ClCompile Include="숨바꼭질.cpp" />
+    <ClCompile Include="숨바꼭질2cpp.cpp" />
     <ClCompile Include="숫자의합.cpp" />
     <ClCompile Include="숫자카드.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
@@ -247,6 +251,7 @@
     <ClCompile Include="오큰수.cpp" />
     <ClCompile Include="요세푸스 푸스문제.cpp" />
     <ClCompile Include="유기농 배추.cpp" />
+    <ClCompile Include="이분그래프.cpp" />
     <ClCompile Include="이항계수2.cpp" />
     <ClCompile Include="이항계수3.cpp" />
     <ClCompile Include="이항계수와 쿼리.cpp" />
