@@ -512,6 +512,9 @@
     <ClCompile Include="뱀과 사다리 게임.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="벽부수고 이동하기.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
