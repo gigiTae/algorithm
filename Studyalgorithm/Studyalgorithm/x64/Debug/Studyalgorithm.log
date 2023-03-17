@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  Studyalgorithm.vcxproj -> C:\Users\User\Desktop\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
+C:\Users\User\Desktop\algorithm\Studyalgorithm\Studyalgorithm\main.cpp(11,9): error C2440: '초기화 중': 'int'에서 'int &'(으)로 변환할 수 없습니다.
