@@ -169,6 +169,7 @@
     <ClCompile Include="단어_정렬.cpp" />
     <ClCompile Include="단어길이재기cpp.cpp" />
     <ClCompile Include="단지번호붙이기.cpp" />
+    <ClCompile Include="달력만들기.cpp" />
     <ClCompile Include="달팽.cpp" />
     <ClCompile Include="X보다_작은_수.cpp" />
     <ClCompile Include="개수세기.cpp" />
