@@ -186,6 +186,7 @@
     <ClCompile Include="동전O.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="랜선자르기.cpp" />
+    <ClCompile Include="레퍼런스.cpp" />
     <ClCompile Include="문자열.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="문자열집합.cpp" />
@@ -197,6 +198,7 @@
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
     <ClCompile Include="벽부수고 이동하기.cpp" />
+    <ClCompile Include="벽부수고 이동하기2.cpp" />
     <ClCompile Include="별찍기10.cpp" />
     <ClCompile Include="별찍기7.cpp" />
     <ClCompile Include="부녀회장이될테야.cpp" />
