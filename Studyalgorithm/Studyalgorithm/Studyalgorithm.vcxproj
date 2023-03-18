@@ -186,7 +186,6 @@
     <ClCompile Include="동전O.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="랜선자르기.cpp" />
-    <ClCompile Include="레퍼런스.cpp" />
     <ClCompile Include="문자열.cpp" />
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="문자열집합.cpp" />

@@ -1,3 +1,1 @@
-﻿  main.cpp
-C:\Users\PC\Desktop\cpp\algorithm\Studyalgorithm\Studyalgorithm\main.cpp(82,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
-C:\Users\PC\Desktop\cpp\algorithm\Studyalgorithm\Studyalgorithm\main.cpp(21,5): message : 'main'의 이전 정의를 참조하십시오.
+﻿  Studyalgorithm.vcxproj -> C:\Users\PC\Desktop\cpp\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
