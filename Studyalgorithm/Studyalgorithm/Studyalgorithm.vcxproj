@@ -178,6 +178,7 @@
     <ClCompile Include="나누기소수점.cpp" />
     <ClCompile Include="나머지.cpp" />
     <ClCompile Include="단어의개수.cpp" />
+    <ClCompile Include="당구연습.cpp" />
     <ClCompile Include="대칭 차집합.cpp" />
     <ClCompile Include="대표값2.cpp" />
     <ClCompile Include="덩치.cpp" />
@@ -275,6 +276,7 @@
     <ClCompile Include="직사각형에서 탈출.cpp" />
     <ClCompile Include="체스판 다시 칠하기 2.cpp" />
     <ClCompile Include="체스판다시칠하기.cpp" />
+    <ClCompile Include="최단경로.cpp" />
     <ClCompile Include="최대힙.cpp" />
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소 힙.cpp" />

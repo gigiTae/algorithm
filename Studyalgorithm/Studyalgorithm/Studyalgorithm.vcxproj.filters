@@ -521,6 +521,12 @@
     <ClCompile Include="벽부수고 이동하기2.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="당구연습.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="최단경로.cpp">
+      <Filter>백준단계\최단 경로</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -624,6 +630,12 @@
     </Filter>
     <Filter Include="백준단계\반복문">
       <UniqueIdentifier>{ff9f431e-2339-4c94-a9f6-f6338535ac4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스">
+      <UniqueIdentifier>{e778c452-4438-4105-85ce-950f503a8f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\최단 경로">
+      <UniqueIdentifier>{32ae60ce-1ff6-4539-962a-eda261967d50}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
