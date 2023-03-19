@@ -151,6 +151,7 @@
     <ClCompile Include="계단오르기.cpp" />
     <ClCompile Include="골드바흐의추측.cpp" />
     <ClCompile Include="곱셈1.cpp" />
+    <ClCompile Include="교점갯수출력.cpp" />
     <ClCompile Include="구간 합 구하기4.cpp" />
     <ClCompile Include="구간 합 구하기5.cpp" />
     <ClCompile Include="균형잡힌세상.cpp" />
