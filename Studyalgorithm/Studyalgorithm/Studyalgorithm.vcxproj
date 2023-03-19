@@ -212,6 +212,7 @@
     <ClCompile Include="색종이만들기.cpp" />
     <ClCompile Include="서로 다른 부분 문자열 개수.cpp" />
     <ClCompile Include="설탕배달.cpp" />
+    <ClCompile Include="섬의개수.cpp" />
     <ClCompile Include="세로읽기.cpp" />
     <ClCompile Include="소수.cpp" />
     <ClCompile Include="소수_구하기.cpp" />
@@ -248,6 +249,7 @@
     <ClCompile Include="알람시계.cpp" />
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="암호만들기.cpp" />
+    <ClCompile Include="연결 요소의 개수.cpp" />
     <ClCompile Include="연산자 끼워넣기.cpp" />
     <ClCompile Include="연속합.cpp" />
     <ClCompile Include="영수증.cpp" />

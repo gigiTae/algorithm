@@ -530,6 +530,12 @@
     <ClCompile Include="교점갯수출력.cpp">
       <Filter>C++공부</Filter>
     </ClCompile>
+    <ClCompile Include="연결 요소의 개수.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="섬의개수.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
