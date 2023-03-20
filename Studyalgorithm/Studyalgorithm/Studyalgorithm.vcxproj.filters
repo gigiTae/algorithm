@@ -536,6 +536,15 @@
     <ClCompile Include="stringclass.cpp">
       <Filter>C++공부</Filter>
     </ClCompile>
+    <ClCompile Include="섬의개수.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="연결 요소의 개수.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질3.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

@@ -227,6 +227,7 @@
     <ClCompile Include="수정렬하기3.cpp" />
     <ClCompile Include="숨바꼭질.cpp" />
     <ClCompile Include="숨바꼭질2cpp.cpp" />
+    <ClCompile Include="숨바꼭질3.cpp" />
     <ClCompile Include="숫자의합.cpp" />
     <ClCompile Include="숫자카드.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
