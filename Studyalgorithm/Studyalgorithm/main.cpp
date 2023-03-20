@@ -1,86 +1,61 @@
 ﻿
 #include <iostream>
-class string {
-	char* str;
-	int len;
+#include <queue>
+using namespace std;
+int N, K;
+int ans = 0;
+queue<int> Q;
+bool Visited[100001]{};
 
-public:
-	string(char c, int n);  // 문자 c 가 n 개 있는 문자열로 정의
-	string(const char* s);
-	string(const string& s);
-	~string();
-
-	void add_string(const string& s);   // str 뒤에 s 를 붙인다.
-	void copy_string(const string& s);  // str 에 s 를 복사한다.
-	int strlen();                       // 문자열 길이 리턴
-};
-
-string::string(char c, int n)
+void BFS()
 {
-	len = n;
-	str = new char[n+1];
-	for (int i = 0; i < n; ++i)
-		str[i] = c;
-	str[n] = '\0';
-}
-
-string::string(const char* s)
-{
-	len = 0;
-	while (s[len])
-		++len;
-	str = new char[len+1];
-	strcpy_s(str, len + 1, s);
-}
-
-string::string(const string& s)
-{
-	len = s.len;
-	str = new char[sizeof(s.str)];
-	strcpy_s(str, sizeof(s.str), s.str);
-}
-
-string::~string()
-{
-	delete str;
-}
-
-void string::add_string(const string& s)
-{
-	char* tmp = new char[sizeof(str) + sizeof(s.str)-1];
-	for (int i = 0; i < len; ++i)
+	queue<int> tmp;
+	while (!Q.empty())
 	{
-		tmp[i] = str[i];
-	}
-	for (int i = len; i < len + s.len; ++i)
-	{
-		tmp[i] = s.str[i - len];
-	}
-	tmp[len + s.len] = '\0';
-	delete str;
-	str = tmp;
-	len += s.len;
-}
+		int num = Q.front();
+		while (num < 100001)
+		{
+			Visited[num] == true;
+			if (num == K)
+			{
+				queue<int> emp;
+				Q = emp;
+				return;
+			}
+			if (Visited[num] == false)
+			{
+				Visited[num] == true;
+				tmp.push(num);
+			}
+			if (Visited[num + 1] == false)
+			{
+				tmp.push(num + 1);
+				Visited[num + 1] = true;
+			}
+			if (num > 0 && Visited[num - 1] == false)
+			{
+				 tmp.push(num - 1);
+				 Visited[num - 1] = true;
+			}
 
-void string::copy_string(const string& s)
-{
-	str = new char[sizeof(s.str)];
-	strcpy_s(str, sizeof(s.str), s.str);
-	len = s.len;
-}
-
-int string::strlen()
-{
-	return len;
+			num *= 2;
+		}
+		Q.pop();
+	}
+	++ans;
+	Q = tmp;
 }
 
 int main()
 {
-	string str("hi");
-	string str2('g', 5);
-	string str3 = str2;
-	str2.copy_string(str);
-	str.add_string("hello");
-	 
-	int a = 0;
+	cin >> N >> K;
+	Q.push(N);
+
+	
+	Visited[N] = true;
+	while (!Q.empty())
+	{
+		BFS();
+	}
+	cout << ans;
 }

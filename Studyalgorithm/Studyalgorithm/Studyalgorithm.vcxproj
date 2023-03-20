@@ -143,6 +143,7 @@
     <ClCompile Include="RedBlackTree.cpp" />
     <ClCompile Include="RGB거리.cpp" />
     <ClCompile Include="SelfNumber.cpp" />
+    <ClCompile Include="stringclass.cpp" />
     <ClCompile Include="string_to_int.cpp" />
     <ClCompile Include="ThreeDice.cpp" />
     <ClCompile Include="ThreeDots.cpp" />
