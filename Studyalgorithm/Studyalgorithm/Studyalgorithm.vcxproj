@@ -293,6 +293,7 @@
     <ClCompile Include="큐2.cpp" />
     <ClCompile Include="크로아티아알파벳.cpp" />
     <ClCompile Include="큰_수A+B.cpp" />
+    <ClCompile Include="타임머신.cpp" />
     <ClCompile Include="토마토2cpp.cpp" />
     <ClCompile Include="토마토cpp.cpp" />
     <ClCompile Include="통계학.cpp" />

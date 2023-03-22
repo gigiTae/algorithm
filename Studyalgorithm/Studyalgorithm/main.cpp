@@ -1,97 +1,46 @@
 ﻿
 #include <iostream>
+#include <string>
+#include <cstdio>
 #include <vector>
-#include <map>
-
 using namespace std;
-vector<pair<int, int>> Edge[501];
-int N, M; // 도시, 버스
-int Cost[501]{};
-bool IsLimite = true;
-bool Visited[501]{};
-multimap<int, int> mm;
-
-void BellmanFord(int index)
-{
-	mm.insert(make_pair(0, index));
-
-	while (!mm.empty())
-	{
-		auto iter = mm.begin();
-		int ParentVertex = iter->second;
-		int ParentCost = iter->first;
-		if (Visited[ParentVertex] == true)
-		{
-			mm.erase(iter);
-			continue;
-		}
-		Visited[ParentVertex] = true;
-		for (int i = 0; i < Edge[ParentVertex].size(); ++i)
-		{
-			int ChildVertex = Edge[ParentVertex][i].first;
-			int ChildCost = Edge[ParentVertex][i].second;
-
-			if (Cost[ChildVertex] == 0 && Visited[ChildVertex] == false)
-			{
-				Cost[ChildVertex] = ParentCost + ChildCost;
-				mm.insert(make_pair(Cost[ChildVertex], ChildVertex));
-			}
-			else if (Cost[ChildVertex] > ParentCost + ChildCost)
-			{
-				Cost[ChildVertex] = ParentCost + ChildCost;
-				mm.insert(make_pair(Cost[ChildVertex], ChildVertex));
-			}
-		}
-		mm.erase(iter);
+vector<int> getPi(string p) { 
+	int m = (int)p.size(), j = 0;
+	vector<int> pi(m, 0); // 0으로 초기화 된 m개의 원소를 가진 vector 생성
+	for (int i = 1; i < m; i++) {
+		while (j > 0 && p[i] != p[j])
+			j = pi[j - 1];
+		if (p[i] == p[j])
+			pi[i] = ++j;
 	}
-
-	for (int i = 0; i <= 500; ++i)
-		Visited[i] = false;
-
-	mm.insert(make_pair(0, index));
-	while (!mm.empty())
-	{
-		auto iter = mm.begin();
-		int ParentVertex = iter->second;
-		int ParentCost = iter->first;
-		if (Visited[ParentVertex] == true)
-		{
-			mm.erase(iter);
-			continue;
-		}
-		Visited[ParentVertex] = true;
-		for (int i = 0; i < Edge[ParentVertex].size(); ++i)
-		{
-			int ChildVertex = Edge[ParentVertex][i].first;
-			int ChildCost = Edge[ParentVertex][i].second;
-
-			if (Cost[ChildVertex] == 0)
-			{
-				Cost[ChildVertex] = ParentCost + ChildCost;
-				mm.insert(make_pair(Cost[ChildVertex], ChildVertex));
-			}
-			else if (Cost[ChildVertex] > ParentCost + ChildCost)
-			{
-				Cost[ChildVertex] = ParentCost + ChildCost;
-				mm.insert(make_pair(Cost[ChildVertex], ChildVertex));
-			}
-		}
-		mm.erase(iter);
-	}
+	return pi;
 }
-
-int main()
-{
-	cin >> N >> M;
-	for (int i = 0; i < M; ++i)
-	{
-		int A, B, C;
-		cin >> A >> B >> C;
-		Edge[A].push_back(make_pair(B, C));
-		Edge[B].push_back(make_pair(A, C));
+vector<int> kmp(string s, string p) {
+	vector<int> ans;
+	auto pi = getPi(p);
+	int n = (int)s.size(), m = (int)p.size(), j = 0;
+	for (int i = 0; i < n; i++) {
+		while (j > 0 && s[i] != p[j])
+			j = pi[j - 1];
+		if (s[i] == p[j]) {
+			if (j == m - 1) {
+				ans.push_back(i - m + 1);
+				j = pi[j];
+			}
+			else {
+				j++;
+			}
+		}
 	}
-
-	BellmanFord(1);
-
-
+	return ans;
+}
+int main() {
+	string s, p;
+	getline(cin, s);
+	getline(cin, p);
+	auto matched = kmp(s, p);
+	printf("%d\n", (int)matched.size());
+	for (auto i : matched)
+		printf("%d ", i + 1);
+	return 0;
 }
