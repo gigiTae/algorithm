@@ -1,46 +1,120 @@
-﻿
-#include <iostream>
-#include <string>
-#include <cstdio>
+﻿#include <iostream>
 #include <vector>
+#include <queue>
 using namespace std;
-vector<int> getPi(string p) { 
-	int m = (int)p.size(), j = 0;
-	vector<int> pi(m, 0); // 0으로 초기화 된 m개의 원소를 가진 vector 생성
-	for (int i = 1; i < m; i++) {
-		while (j > 0 && p[i] != p[j])
-			j = pi[j - 1];
-		if (p[i] == p[j])
-			pi[i] = ++j;
+
+
+int N, M; // row, col
+int arr[11][300][300]{};
+bool visited[11][300][300]{};
+
+void BFS(int index, int row, int col)
+{
+	queue<pair<int, int>> Q;
+	Q.push(make_pair(row, col));
+	visited[index][row][col] = true;
+	while (!Q.empty())
+	{
+		int Row = Q.front().first;
+		int Col = Q.front().second;
+		// row-1
+		if (arr[index][Row - 1][Col] != 0 && visited[index][Row - 1][Col] == false)
+		{
+			visited[index][Row - 1][Col] = true;
+			Q.push(make_pair(Row - 1, Col));
+		}
+		// row+1
+		if (arr[index][Row + 1][Col] != 0 && visited[index][Row + 1][Col] == false)
+		{
+			visited[index][Row + 1][Col] = true;
+			Q.push(make_pair(Row + 1, Col));
+		}
+		// col+1
+		if (arr[index][Row][Col + 1] != 0 && visited[index][Row][Col + 1] == false)
+		{
+			visited[index][Row][Col + 1] = true;
+			Q.push(make_pair(Row, Col + 1));
+		}
+		// col-1
+		if (arr[index][Row][Col - 1] != 0 && visited[index][Row][Col - 1] == false)
+		{
+			visited[index][Row][Col - 1] = true;
+			Q.push(make_pair(Row, Col - 1));
+		}
+		Q.pop();
 	}
-	return pi;
 }
-vector<int> kmp(string s, string p) {
-	vector<int> ans;
-	auto pi = getPi(p);
-	int n = (int)s.size(), m = (int)p.size(), j = 0;
-	for (int i = 0; i < n; i++) {
-		while (j > 0 && s[i] != p[j])
-			j = pi[j - 1];
-		if (s[i] == p[j]) {
-			if (j == m - 1) {
-				ans.push_back(i - m + 1);
-				j = pi[j];
-			}
-			else {
-				j++;
+
+bool Check(int index)
+{
+	for (int row = 1; row < N; ++row)
+		for (int col = 1; col < M; ++col) {
+			if (arr[index][row][col] != 0) {
+				BFS(index, row, col);
+				return true;
 			}
 		}
-	}
-	return ans;
+	return false;
 }
-int main() {
-	string s, p;
-	getline(cin, s);
-	getline(cin, p);
-	auto matched = kmp(s, p);
-	printf("%d\n", (int)matched.size());
-	for (auto i : matched)
-		printf("%d ", i + 1);
-	return 0;
+
+void Solve()
+{
+
+	while(true)
+	{
+		for(int row=1; row< N; ++row)
+			for (int col = 1; col < M; ++col)
+			{
+				// arr[i - 1][row][col];
+				int num = arr[i - 1][row][col];
+				// up  row-1
+				if (num > 0 && arr[i - 1][row-1][col] == 0)
+					--num;
+				// down row+1
+				if (num > 0 && arr[i - 1][row+1][col] == 0)
+					--num;
+				// left col-1
+				if (num > 0 && arr[i - 1][row][col-1] == 0)
+					--num;
+				// right col+1
+				if (num > 0 && arr[i - 1][row][col+1] == 0)
+					--num;	
+				arr[i][row][col] = num;
+			}
+		// 두덩어리 체크 or 다 녹은지
+		if (Check(i))
+		{
+			for (int row = 1; row < N; ++row)
+				for (int col = 1; col < M; ++col) {
+					if (visited[i][row][col] == false && arr[i][row][col] != 0){
+						cout << i;
+						return;
+					}
+				}
+		}
+		else{
+			cout << 0;
+			return;
+		}
+
+	}
+	cout << 0;
+}
+
+
+
+
+int main()
+{
+	cin.tie(NULL);
+	cout.tie(NULL);
+	ios::sync_with_stdio(false);
+	cin >> N >> M;
+
+	for (int i = 0; i < N; ++i)
+		for (int j = 0; j < M; ++j)
+			cin >> arr[0][i][j];
+	--N; --M;
+
+	Solve();
 }

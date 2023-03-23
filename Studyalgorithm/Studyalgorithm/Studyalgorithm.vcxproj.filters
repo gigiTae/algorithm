@@ -551,6 +551,18 @@
     <ClCompile Include="타임머신.cpp">
       <Filter>백준단계\최단 경로</Filter>
     </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>C++공부</Filter>
+    </ClCompile>
+    <ClCompile Include="저울.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="보물섬cpp.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트링크.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
