@@ -245,7 +245,7 @@ void RedBlackTree::InsertFix(Node* x)
 RedBlackTree::iterator& RedBlackTree::erase(iterator& iter) // 반환값은 중위후속자이다.
 {
 	Node* iNode = iter.node;
-	iterator Returniter = iter;    // 리턴 이터레이터
+	iterator Returniter = iter;    // 리턴 이터레이터 -> 지역변수를 리턴해서 오류발생 -> new 바꾸자
 	bool IsBlack = false;          // 삭제한 노드의 색깔 false : RED ture: BLACK
 
 	iterator Successoriter = iter; // 중위 후속자

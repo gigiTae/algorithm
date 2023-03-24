@@ -292,6 +292,8 @@
     <ClCompile Include="최댓값.cpp" />
     <ClCompile Include="최소 힙.cpp" />
     <ClCompile Include="최소_최대.cpp" />
+    <ClCompile Include="치즈1.cpp" />
+    <ClCompile Include="치즈2.cpp" />
     <ClCompile Include="카드2.cpp" />
     <ClCompile Include="커트라인.cpp" />
     <ClCompile Include="쿼드트리.cpp" />
