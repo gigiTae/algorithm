@@ -295,6 +295,7 @@
     <ClCompile Include="치즈1.cpp" />
     <ClCompile Include="치즈2.cpp" />
     <ClCompile Include="카드2.cpp" />
+    <ClCompile Include="칸토어집합.cpp" />
     <ClCompile Include="커트라인.cpp" />
     <ClCompile Include="쿼드트리.cpp" />
     <ClCompile Include="큐2.cpp" />
@@ -304,6 +305,8 @@
     <ClCompile Include="토마토2cpp.cpp" />
     <ClCompile Include="토마토cpp.cpp" />
     <ClCompile Include="통계학.cpp" />
+    <ClCompile Include="트리순회.cpp" />
+    <ClCompile Include="트리의 부모찾기cpp.cpp" />
     <ClCompile Include="특정한 최단 경로.cpp" />
     <ClCompile Include="파도반수열.cpp" />
     <ClCompile Include="팩토리얼cpp.cpp" />

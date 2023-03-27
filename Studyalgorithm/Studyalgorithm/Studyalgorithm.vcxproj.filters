@@ -572,6 +572,15 @@
     <ClCompile Include="치즈2.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="칸토어집합.cpp">
+      <Filter>백준단계\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의 부모찾기cpp.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리순회.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -681,6 +690,9 @@
     </Filter>
     <Filter Include="백준단계\최단 경로">
       <UniqueIdentifier>{32ae60ce-1ff6-4539-962a-eda261967d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\트리">
+      <UniqueIdentifier>{974d5ab1-ac6a-4220-bccf-a33e359e7d48}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
