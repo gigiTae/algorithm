@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -30,7 +29,7 @@ void PostorderTraversal(Node* node)
 		PostorderTraversal(node->leftchild);
 	if (node->rightchild != nullptr)
 		PostorderTraversal(node->rightchild);
-	cout << node->number<< '\n';
+	cout << node->number << '\n';
 }
 
 
@@ -46,10 +45,8 @@ int main()
 
 	Node* PrevNode = RootNode;
 	int num;
-	while (true)
+	while (cin >>num)
 	{
-		cin >> num;
-		if (num == EOF) break;
 		Node* node = new Node(num);
 		if (PrevNode->number > num) {
 			node->parent = PrevNode;
@@ -59,10 +56,10 @@ int main()
 		}
 
 		Node* tmpnode = PrevNode;
-		while (tmpnode->IsRightChild()){
+		while (tmpnode->IsRightChild()) {
 			tmpnode = tmpnode->parent;
 		}
-		if (tmpnode->parent == nullptr ) {
+		if (tmpnode->parent == nullptr) {
 			PrevNode->rightchild = node;
 			node->parent = PrevNode;
 			PrevNode = node;
@@ -77,7 +74,7 @@ int main()
 		while (tmpnode->parent != nullptr && tmpnode->parent->number < num) {
 			tmpnode = tmpnode->parent;
 		}
-		
+
 		tmpnode->rightchild = node;
 		node->parent = tmpnode->parent;
 		PrevNode = node;
