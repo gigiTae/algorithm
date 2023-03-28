@@ -581,6 +581,12 @@
     <ClCompile Include="트리순회.cpp">
       <Filter>백준단계\트리</Filter>
     </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>백준단계\문자열1</Filter>
+    </ClCompile>
+    <ClCompile Include="적록색약.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">

@@ -273,6 +273,8 @@
     <ClCompile Include="잃어버린 괄호.cpp" />
     <ClCompile Include="재귀의 귀재.cpp" />
     <ClCompile Include="저울.cpp" />
+    <ClCompile Include="적록색약.cpp" />
+    <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="절댓값힙.cpp" />
     <ClCompile Include="정수N개의합.cpp" />
     <ClCompile Include="정수삼각형.cpp" />
