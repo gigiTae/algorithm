@@ -1,2 +1,4 @@
-﻿  main.cpp
-  Studyalgorithm.vcxproj -> C:\Users\PC\Desktop\cpp\algorithm\Studyalgorithm\x64\Debug\Studyalgorithm.exe
+﻿  1,2,3더하기.cpp
+  main.cpp
+C:\Users\User\Desktop\algorithm\Studyalgorithm\Studyalgorithm\main.cpp(8,10): error C2062: 예기치 않은 'char' 형식입니다.
+  코드를 생성하고 있습니다...

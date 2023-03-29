@@ -108,6 +108,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>3000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -128,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01타일.cpp" />
+    <ClCompile Include="1,2,3더하기.cpp" />
     <ClCompile Include="1로 만들기.cpp" />
     <ClCompile Include="2중배열선언.cpp" />
     <ClCompile Include="AC.cpp" />
@@ -198,6 +200,7 @@
     <ClCompile Include="미확인 도착지.cpp" />
     <ClCompile Include="바보상수.cpp" />
     <ClCompile Include="바이러스.cpp" />
+    <ClCompile Include="백조의호수.cpp" />
     <ClCompile Include="뱀과 사다리 게임.cpp" />
     <ClCompile Include="벌집.cpp" />
     <ClCompile Include="베트트랑공준.cpp" />
@@ -257,6 +260,7 @@
     <ClCompile Include="알파벳_찾기.cpp" />
     <ClCompile Include="암호만들기.cpp" />
     <ClCompile Include="연결 요소의 개수.cpp" />
+    <ClCompile Include="연구소.cpp" />
     <ClCompile Include="연산자 끼워넣기.cpp" />
     <ClCompile Include="연속합.cpp" />
     <ClCompile Include="영수증.cpp" />

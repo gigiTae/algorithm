@@ -587,6 +587,15 @@
     <ClCompile Include="적록색약.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="연구소.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="백조의호수.cpp">
+      <Filter>백준단계\그래프순회</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3더하기.cpp">
+      <Filter>백준단계\동적계획법1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
