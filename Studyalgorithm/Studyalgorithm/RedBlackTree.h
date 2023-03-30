@@ -1,84 +1,84 @@
-	#pragma once
+	//#pragma once
 
-	enum class COLOR
-	{
-		BLACK,
-		RED,
-	};
+	//enum class COLOR
+	//{
+	//	BLACK,
+	//	RED,
+	//};
 
-	struct Node
-	{
-		int iKey;
-		COLOR Color;
-		Node* Parent;
-		Node* LeftChild;
-		Node* RightChild;
-		
-		Node();
-		~Node();
-	};
+	//struct Info
+	//{
+	//	int iKey;
+	//	COLOR Color;
+	//	Info* Parent;
+	//	Info* LeftChild;
+	//	Info* RightChild;
+	//	
+	//	Info();
+	//	~Info();
+	//};
 
-	class RedBlackTree
-	{
-	public:
-		class iterator;
-	private:
-		Node* Root;
-		Node* Leaf;
-	public:
-		void insert(int _key);
+	//class RedBlackTree
+	//{
+	//public:
+	//	class iterator;
+	//private:
+	//	Info* Root;
+	//	Info* Leaf;
+	//public:
+	//	void insert(int _key);
 
-		iterator& erase(iterator& iter);
-		iterator& find(int _key);
-		iterator& begin();
-		iterator& rbegin();
-		iterator& end();
+	//	iterator& erase(iterator& iter);
+	//	iterator& find(int _key);
+	//	iterator& begin();
+	//	iterator& rbegin(); // 원래의 rbegin 은 아마도 riterator가 있을것이다.
+	//	iterator& end();
 
-	public:
-		void Print();
+	//public:
+	//	void Print();
 
-	private:
-		void RightRotation(Node* x);
-		void LeftRotation(Node* x);
+	//private:
+	//	void RightRotation(Info* x);
+	//	void LeftRotation(Info* x);
 
-		void InsertFix(Node* x);
-		void EraseFix(Node* x);
+	//	void InsertFix(Info* x);
+	//	void EraseFix(Info* x);
 
-		bool IsRightChild(Node* x);
-		bool IsLeftChild(Node* x);
-	
-	private:
-		Node* grandparent(const Node* n);
-		Node* uncle(const Node* n);
+	//	bool IsRightChild(Info* x);
+	//	bool IsLeftChild(Info* x);
+	//
+	//private:
+	//	Info* grandparent(const Info* n);
+	//	Info* uncle(const Info* n);
 
-	public:
-		class iterator
-		{
-		private:
-			Node* node;
-			RedBlackTree* tree;
+	//public:
+	//	class iterator
+	//	{
+	//	private:
+	//		Info* node;
+	//		RedBlackTree* tree;
 
-		public:
-			int operator *();
-			iterator& operator++();
-			iterator& operator--();
-			bool operator ==(const iterator &_other);
-			bool operator !=(const iterator &_other);
+	//	public:
+	//		int operator *();
+	//		iterator& operator++();
+	//		iterator& operator--();
+	//		bool operator ==(const iterator &_other);
+	//		bool operator !=(const iterator &_other);
 
 
-		public:
-			iterator();
-			iterator(const iterator& _other);
+	//	public:
+	//		iterator();
+	//		iterator(const iterator& _other);
 
-			~iterator();
+	//		~iterator();
 
-			friend class RedBlackTree;
-		};
+	//		friend class RedBlackTree;
+	//	};
 
-	public:
-		RedBlackTree();
-		~RedBlackTree();
+	//public:
+	//	RedBlackTree();
+	//	~RedBlackTree();
 
-		friend class iterator;
-	};
+	//	friend class iterator;
+	//};
 

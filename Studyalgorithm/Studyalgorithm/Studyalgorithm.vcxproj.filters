@@ -602,6 +602,15 @@
     <ClCompile Include="아기상어.cpp">
       <Filter>백준단계\그래프순회</Filter>
     </ClCompile>
+    <ClCompile Include="트리의 지름cpp.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의 지름2.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리cpp.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
