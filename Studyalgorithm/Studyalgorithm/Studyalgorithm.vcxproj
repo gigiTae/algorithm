@@ -138,6 +138,7 @@
     <ClCompile Include="ATM.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="DFS와BFS.cpp" />
+    <ClCompile Include="emplace_back.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="N-Queen.cpp" />
@@ -190,6 +191,7 @@
     <ClCompile Include="덱.cpp" />
     <ClCompile Include="덱리스트.cpp" />
     <ClCompile Include="동전O.cpp" />
+    <ClCompile Include="두개의 트리지름.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="랜선자르기.cpp" />
     <ClCompile Include="문자열.cpp" />

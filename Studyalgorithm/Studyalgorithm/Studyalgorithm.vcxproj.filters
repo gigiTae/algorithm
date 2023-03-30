@@ -611,6 +611,12 @@
     <ClCompile Include="트리cpp.cpp">
       <Filter>백준단계\트리</Filter>
     </ClCompile>
+    <ClCompile Include="두개의 트리지름.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="emplace_back.cpp">
+      <Filter>C++공부</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
