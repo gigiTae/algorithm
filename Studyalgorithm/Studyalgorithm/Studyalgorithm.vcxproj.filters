@@ -611,6 +611,7 @@
     <ClCompile Include="트리cpp.cpp">
       <Filter>백준단계\트리</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="돌게임.cpp">
       <Filter>백준단계\게임</Filter>
     </ClCompile>
@@ -625,6 +626,13 @@
     </ClCompile>
     <ClCompile Include="돌게임6.cpp">
       <Filter>백준단계\게임</Filter>
+=======
+    <ClCompile Include="두개의 트리지름.cpp">
+      <Filter>백준단계\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="emplace_back.cpp">
+      <Filter>C++공부</Filter>
+>>>>>>> 813223c510ef183aeec2e9162cc552e817a9b4a2
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

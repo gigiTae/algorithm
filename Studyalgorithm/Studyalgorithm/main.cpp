@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
+<<<<<<< HEAD
 
 void main()
 {
@@ -87,7 +88,17 @@ void main()
 		sum += *p;
 		cout << sum;
 	}
+=======
+>>>>>>> 813223c510ef183aeec2e9162cc552e817a9b4a2
 
+
+
+<<<<<<< HEAD
+=======
+int main()
+{
+	ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
 }
 
+>>>>>>> 813223c510ef183aeec2e9162cc552e817a9b4a2
