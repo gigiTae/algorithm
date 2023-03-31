@@ -611,6 +611,21 @@
     <ClCompile Include="트리cpp.cpp">
       <Filter>백준단계\트리</Filter>
     </ClCompile>
+    <ClCompile Include="돌게임.cpp">
+      <Filter>백준단계\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임2cpp.cpp">
+      <Filter>백준단계\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임3.cpp">
+      <Filter>백준단계\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임5.cpp">
+      <Filter>백준단계\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임6.cpp">
+      <Filter>백준단계\게임</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="알고리즘">
@@ -723,6 +738,9 @@
     </Filter>
     <Filter Include="백준단계\트리">
       <UniqueIdentifier>{974d5ab1-ac6a-4220-bccf-a33e359e7d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준단계\게임">
+      <UniqueIdentifier>{851de012-a261-4ff0-be5a-8cb436a43f99}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

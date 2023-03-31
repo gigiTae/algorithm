@@ -189,6 +189,11 @@
     <ClCompile Include="덩치.cpp" />
     <ClCompile Include="덱.cpp" />
     <ClCompile Include="덱리스트.cpp" />
+    <ClCompile Include="돌게임.cpp" />
+    <ClCompile Include="돌게임2cpp.cpp" />
+    <ClCompile Include="돌게임3.cpp" />
+    <ClCompile Include="돌게임5.cpp" />
+    <ClCompile Include="돌게임6.cpp" />
     <ClCompile Include="동전O.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="랜선자르기.cpp" />

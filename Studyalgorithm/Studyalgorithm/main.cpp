@@ -1,49 +1,93 @@
 ﻿#include <iostream>
-#include <vector>
-#include <queue>
 using namespace std;
-int N;
 
-vector<pair<int, int>> Info[100001];
-bool visited[100001]{};
-int BFS(int num)
+void main()
 {
-	visited[num] = true;
-	queue<pair<int, int>> Q;
-	for (int i = 0; i < Info[num].size(); ++i) {
-		Q.push(make_pair(Info[num][i].first, Info[num][i].second));
-		visited[Info[num][i].first] = true;
+	//1. 출력값은?
+	{
+		int a;
+		int* p;
+		p = &a; 
+		a = 2;
+		printf("%d\n", *p); //2
 	}
 
-	while (!Q.empty()) {
-		int index = Q.front().first;
-		int Dist = Q.front().second;
-		for (int i = 0; i < Info[index].size(); ++i) {
-			if (!visited[Info[index][i].first]) {
-				
-			}
-		}
+	//2. 출력값은? 
+	{
+		int num1 = 1;
+		int num2 = 2;
+		int* ptr;
+		ptr = &num1;
+		*ptr += 1;
+		ptr = &num2;
+		*ptr += 2;
+		printf("%d\n", num1); //2
+		printf("%d\n", num2); //4
+	}
+
+	//3. 출력값은? 	
+	{
+		int Arr[5] = { 0 };
+		int* pArr = Arr;
+		printf("%d \n", sizeof(Arr) + sizeof(pArr)); //20+8
+	}
+
+	//4. 출력값은? 	
+	{
+		int num = 1;
+		int* pnum = nullptr;
+		pnum = &num;
+		cout << *&num + *&*pnum << endl; // 2
+	}
+
+	//5. 출력값은? 	
+	{
+		int arr[] = { 1,2,3 };
+		int* pn = nullptr;
+		pn = arr;
+		*pn += 10;
+		pn++;
+		cout << *pn << endl; // nullptr -> 1 -> 11 -> 2
+	}
+
+	//6. 출력값은? 	
+	{
+		int array[5] = { 10, 20, 30, 40, 50 };
+		int* p = array + 2; //30
+
+		++* p++; // 40
+		printf("%d \n", *p);			//값은 어떻게 될까요? // 40
+		printf("%d \n", array[2]); // 31
+		printf("%d \n", array[3]); // 40
+
+		printf("%d \n\n", ++*p++);		//값은 어떻게 될까요? // 41
+	}
+
+	//7. 출력값은?
+	{
+		int arr1[5] = { 11164,2,3,4,5 };
+		char* p2 = (char*)arr1;
+
+		printf("%d\n", *p2++); //1
+		printf("%d\n", *p2++); //0
+		printf("%d\n", *p2++); //0
+		printf("%d\n", *p2++); //0
+		printf("%d\n", *p2++); //2
+	}
+
+	//8. 포인터 p 를 사용하여 배열의 값을 모두 더하세요.
+	{
+		int arr[5] = { 1,2,3,4,5 };
+		int* p = arr;
+		int sum = 0;
+		sum += *p++;
+		sum += *p++;
+		sum += *p++;
+		sum += *p++;
+		sum += *p;
+		cout << sum;
 	}
 
 
-}
-
-void Solve()
-{
-	BFS(1);
-
-}
-int main()
-{
-	ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-	cin >> N;
-	for (int i = 1; i < N; ++i) {
-		int vertex1, vertex2, value;
-		cin >> vertex1 >> vertex2 >> value;
-		Info[vertex1].push_back(make_pair(vertex2, value));
-		Info[vertex2].push_back(make_pair(vertex1, value));
-	}
-
-	Solve();
 }
 
