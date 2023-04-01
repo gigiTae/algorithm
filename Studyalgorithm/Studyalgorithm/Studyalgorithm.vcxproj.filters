@@ -2,38 +2,14 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="01타일.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="1,2,3더하기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="1로 만들기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
     <ClCompile Include="2중배열선언.cpp">
       <Filter>C++</Filter>
-    </ClCompile>
-    <ClCompile Include="AC.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="ACM호텔.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="ASCII.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="ATM.cpp">
-      <Filter>백준</Filter>
     </ClCompile>
     <ClCompile Include="CircleQueue.cpp">
       <Filter>자료구조</Filter>
     </ClCompile>
     <ClCompile Include="emplace_back.cpp">
       <Filter>C++</Filter>
-    </ClCompile>
-    <ClCompile Include="DFS와BFS.cpp">
-      <Filter>백준</Filter>
     </ClCompile>
     <ClCompile Include="KMP.cpp">
       <Filter>C++</Filter>
@@ -50,587 +26,617 @@
     <ClCompile Include="stringclass.cpp">
       <Filter>C++</Filter>
     </ClCompile>
-    <ClCompile Include="회전하는 큐.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="N-Queen.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="N과M.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="OX퀴즈.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="RGB거리.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="SelfNumber.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreeDice.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreeDots.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="X보다_작은_수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="가장 긴 증가하는 부분 수열.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="가장긴바이토닉부분수열.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="개수세기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="계단오르기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="골드바흐의추측.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="곱셈.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="곱셈1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="과제_안_내신_분.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="교점갯수출력.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="구간 합 구하기4.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="구간 합 구하기5.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="균형잡힌세상.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="그대로출력하기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="그룹_단어_체커.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나누기소수점.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나머지 합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나머지.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나무자르기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나이순_정렬.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="나이트이동.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="너의 평점은.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="네번째점.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="다리놓기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="다이얼.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="단어_공부.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="단어_정렬.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="단어길이재기cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="단어의개수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="단지번호붙이기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="달력만들기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="달팽.cpp">
-      <Filter>백준</Filter>
+    <ClCompile Include="용액.cpp">
+      <Filter>백준\투포인터</Filter>
     </ClCompile>
     <ClCompile Include="당구연습.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="대칭 차집합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="대표값2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="덩치.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="덱.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="덱리스트.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="돌게임.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="돌게임2cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="돌게임3.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="돌게임5.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="돌게임6.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="동전O.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="두개의 트리지름.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="듣보잡.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="랜선자르기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열_반복.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열집합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열폭발.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="미로탐색.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="미확인 도착지.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="바보상수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="바이러스.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="백조의호수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="뱀과 사다리 게임.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="벌집.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="베트트랑공준.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="벽부수고 이동하기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="벽부수고 이동하기2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="별찍기7.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="별찍기10.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="보물섬cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="부녀회장이될테야.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="분수찾기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="분해합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="블랙잭.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="비트 연산자.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="빙산.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="빠른A+B.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="색종이.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="색종이만들기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="서로 다른 부분 문자열 개수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="설탕배달.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="섬의개수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="세로읽기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="소수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="소수_구하기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="소수찾기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="소인수분해.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="소트인사이드.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="손익분기점.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="수열.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="수정렬.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="수정렬하기3.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="숨바꼭질.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="숨바꼭질2cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="숨바꼭질3.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자의합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자카드.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자카드2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="쉬운계단수cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="스도쿠.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="스타트링크.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="스타트와 링크.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="스택.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="신나는 함수 실행.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="아기상어.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="안전영역.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업 - 점근적 표기1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업 -알고리즘의 수행 시간 5.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-깊이 우선 탐색2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-너비 우선 탐색1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-너비 우선 탐색2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 3cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 4.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 6.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘수업- 깊이 우선 탐색1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알고리즘수업-피보나치수1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알람시계.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="알파벳_찾기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="암호만들기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="연결 요소의 개수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="연구소.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="연산자 끼워넣기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="연속합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="영수증.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="영화감독 숀.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="오동큰수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="오븐시계.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="오큰수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="요세푸스 푸스문제.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="유기농 배추.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="이분그래프.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="이항계수2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="이항계수3.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="이항계수와 쿼리.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="잃어버린 괄호.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="재귀의 귀재.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="저울.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="적록색약.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="전화번호 목록.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="절댓값힙.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="정수N개의합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="정수삼각형.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="제로.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="종이의개수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="좌표압축.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="좌표정렬시간초과.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="좌표정렬하기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="좌표정렬하기2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="주유소.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="직각삼각형.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="직사각형에서 탈출.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="체스판 다시 칠하기 2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="체스판다시칠하기.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="최단경로.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="최대힙.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="최댓값.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="최소 힙.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="최소_최대.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="치즈1.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="치즈2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="카드2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="칸토어집합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="커트라인.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="쿼드트리.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="큐2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="크로아티아알파벳.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="큰_수A+B.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="타임머신.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="토마토2cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="토마토cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="통계학.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="트리cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="트리순회.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="트리의 부모찾기cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="트리의 지름2.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="트리의 지름cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="특정한 최단 경로.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="파도반수열.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="팩토리얼cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="평균.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="평균은_넘겠지.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="프린터 큐.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="피보나치6.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="피보나치cpp.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="한수.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="행렬곱셈.cpp">
-      <Filter>백준</Filter>
+      <Filter>C++</Filter>
     </ClCompile>
     <ClCompile Include="행렬덧셈.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="행렬제곱.cpp">
-      <Filter>백준</Filter>
+      <Filter>백준\수학</Filter>
     </ClCompile>
     <ClCompile Include="행렬최댓값.cpp">
-      <Filter>백준</Filter>
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬제곱.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬곱셈.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="한수.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="평균.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="01타일.cpp">
+      <Filter>백준\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1,2,3더하기.cpp">
+      <Filter>백준\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1로 만들기.cpp">
+      <Filter>백준\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="AC.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM호텔.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCII.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와BFS.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="N-Queen.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="두 수의 합.cpp">
+      <Filter>백준\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열폭발.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열_반복.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열집합.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="곱셈.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="곱셈1.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="단어의개수.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="단어길이재기cpp.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="단어_정렬.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="단어_공부.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="벽부수고 이동하기2.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="벽부수고 이동하기.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="뱀과 사다리 게임.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="백조의호수.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="바이러스.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘수업-피보나치수1.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘수업- 깊이 우선 탐색1.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업 - 점근적 표기1.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업 -알고리즘의 수행 시간 5.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-깊이 우선 탐색2.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-너비 우선 탐색1.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-너비 우선 탐색2.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 2.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 1.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 3cpp.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 4.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 수업-알고리즘의 수행 시간 6.cpp">
+      <Filter>백준\시간복잡도</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의 지름cpp.cpp">
+      <Filter>백준\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의 지름2.cpp">
+      <Filter>백준\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의 부모찾기cpp.cpp">
+      <Filter>백준\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리순회.cpp">
+      <Filter>백준\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리cpp.cpp">
+      <Filter>백준\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="최소_최대.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="직사각형에서 탈출.cpp">
+      <Filter>백준\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임6.cpp">
+      <Filter>백준\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임5.cpp">
+      <Filter>백준\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임3.cpp">
+      <Filter>백준\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임2cpp.cpp">
+      <Filter>백준\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="돌게임.cpp">
+      <Filter>백준\게임</Filter>
+    </ClCompile>
+    <ClCompile Include="회전하는 큐.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표정렬시간초과.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표정렬하기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표정렬하기2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="주유소.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="직각삼각형.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="체스판 다시 칠하기 2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="체스판다시칠하기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="최단경로.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="최대힙.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="최소 힙.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="치즈1.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="치즈2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="카드2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="칸토어집합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="커트라인.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드트리.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="큐2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="크로아티아알파벳.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="큰_수A+B.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="타임머신.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="토마토2cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="토마토cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="통계학.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="특정한 최단 경로.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="파도반수열.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="팩토리얼cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="평균은_넘겠지.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터 큐.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치6.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="OX퀴즈.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB거리.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfNumber.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDice.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDots.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="X보다_작은_수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 증가하는 부분 수열.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="가장긴바이토닉부분수열.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="개수세기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="계단오르기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="골드바흐의추측.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="과제_안_내신_분.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="교점갯수출력.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="구간 합 구하기4.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="구간 합 구하기5.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="균형잡힌세상.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="그대로출력하기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="그룹_단어_체커.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나누기소수점.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나는야 포켓몬 마스터 이다솜.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나머지 합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나머지.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나무자르기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나이순_정렬.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="나이트이동.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="너의 평점은.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="네번째점.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="다리놓기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="다이얼.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="단지번호붙이기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="달력만들기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="달팽.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="대칭 차집합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="대표값2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="덩치.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="덱.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="덱리스트.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="동전O.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="두개의 트리지름.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="듣보잡.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="랜선자르기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탐색.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="미확인 도착지.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="바보상수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="벌집.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="베트트랑공준.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기7.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기10.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="보물섬cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="부녀회장이될테야.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="분수찾기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="분해합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="블랙잭.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="비트 연산자.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="빙산.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="빠른A+B.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이만들기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="서로 다른 부분 문자열 개수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="섬의개수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="세로읽기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소수_구하기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소수찾기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소인수분해.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소트인사이드.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="손익분기점.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="수열.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="수정렬.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="수정렬하기3.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질2cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질3.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자의합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자카드.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자카드2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="쉬운계단수cpp.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="스도쿠.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트링크.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트와 링크.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="스택.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="신나는 함수 실행.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="아기상어.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="안전영역.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="알람시계.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="알파벳_찾기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="암호만들기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="연결 요소의 개수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="연구소.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="연속합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="영수증.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="영화감독 숀.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="오동큰수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="오븐시계.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="오큰수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="요세푸스 푸스문제.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="유기농 배추.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="이분그래프.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="이항계수2.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="이항계수3.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="이항계수와 쿼리.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="잃어버린 괄호.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="재귀의 귀재.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="저울.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="적록색약.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="절댓값힙.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="정수N개의합.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="정수삼각형.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="제로.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="종이의개수.cpp">
+      <Filter>백준\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="좌표압축.cpp">
+      <Filter>백준\etc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -650,6 +656,42 @@
     </Filter>
     <Filter Include="C++">
       <UniqueIdentifier>{62a30122-02eb-406e-820d-87e57ec29bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\투포인터">
+      <UniqueIdentifier>{45a069ce-0a67-424b-8ba5-71fd9ccd3282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\DP">
+      <UniqueIdentifier>{3972aed6-f491-482d-b5d7-bfe24f6bf1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\수학">
+      <UniqueIdentifier>{0329a743-cccf-4b58-9632-3a406b4ebb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\문자열">
+      <UniqueIdentifier>{01b6f860-dade-4291-ae0e-9030ec127e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\트리">
+      <UniqueIdentifier>{32accd50-d447-46fc-82ed-be3d030f5791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\그리디">
+      <UniqueIdentifier>{da33f56f-ec8f-425c-8367-d3fe8dcaf55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\그래프">
+      <UniqueIdentifier>{184844bf-3592-40f1-84f3-7022a753b861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\그래프탐색">
+      <UniqueIdentifier>{1adfe26b-4299-4244-ab6a-27ec96b322f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\정렬">
+      <UniqueIdentifier>{eb0a4a16-11f4-4fbb-9939-f639f59be34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\시간복잡도">
+      <UniqueIdentifier>{0f956f10-560e-4ba2-a6a9-70c09a77528b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\게임">
+      <UniqueIdentifier>{a47ce497-8abb-434f-9cea-c84ffd6c57e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\etc">
+      <UniqueIdentifier>{67356730-c7f4-45ba-af92-41acbb4f6638}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -196,6 +196,7 @@
     <ClCompile Include="돌게임5.cpp" />
     <ClCompile Include="돌게임6.cpp" />
     <ClCompile Include="동전O.cpp" />
+    <ClCompile Include="두 수의 합.cpp" />
     <ClCompile Include="두개의 트리지름.cpp" />
     <ClCompile Include="듣보잡.cpp" />
     <ClCompile Include="랜선자르기.cpp" />
@@ -278,6 +279,7 @@
     <ClCompile Include="오븐시계.cpp" />
     <ClCompile Include="오큰수.cpp" />
     <ClCompile Include="요세푸스 푸스문제.cpp" />
+    <ClCompile Include="용액.cpp" />
     <ClCompile Include="유기농 배추.cpp" />
     <ClCompile Include="이분그래프.cpp" />
     <ClCompile Include="이항계수2.cpp" />
