@@ -154,6 +154,7 @@
     <ClCompile Include="가장 긴 증가하는 부분 수열.cpp" />
     <ClCompile Include="가장긴바이토닉부분수열.cpp" />
     <ClCompile Include="계단오르기.cpp" />
+    <ClCompile Include="골드바흐 파티션.cpp" />
     <ClCompile Include="골드바흐의추측.cpp" />
     <ClCompile Include="곱셈1.cpp" />
     <ClCompile Include="교점갯수출력.cpp" />
@@ -218,6 +219,9 @@
     <ClCompile Include="별찍기7.cpp" />
     <ClCompile Include="보물섬cpp.cpp" />
     <ClCompile Include="부녀회장이될테야.cpp" />
+    <ClCompile Include="부분수열의 합.cpp" />
+    <ClCompile Include="부분수열의 합2.cpp" />
+    <ClCompile Include="부분합.cpp" />
     <ClCompile Include="분수찾기.cpp" />
     <ClCompile Include="분해합.cpp" />
     <ClCompile Include="블랙잭.cpp" />
@@ -232,6 +236,7 @@
     <ClCompile Include="세로읽기.cpp" />
     <ClCompile Include="소수.cpp" />
     <ClCompile Include="소수_구하기.cpp" />
+    <ClCompile Include="소수의 연속합.cpp" />
     <ClCompile Include="소수찾기.cpp" />
     <ClCompile Include="N과M.cpp" />
     <ClCompile Include="소인수분해.cpp" />

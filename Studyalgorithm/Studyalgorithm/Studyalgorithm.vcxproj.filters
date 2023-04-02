@@ -638,6 +638,21 @@
     <ClCompile Include="좌표압축.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
+    <ClCompile Include="부분합.cpp">
+      <Filter>백준\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="소수의 연속합.cpp">
+      <Filter>백준\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="골드바흐 파티션.cpp">
+      <Filter>백준\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="부분수열의 합.cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="부분수열의 합2.cpp">
+      <Filter>백준\투포인터</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">
@@ -692,6 +707,9 @@
     </Filter>
     <Filter Include="백준\etc">
       <UniqueIdentifier>{67356730-c7f4-45ba-af92-41acbb4f6638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\백트래킹">
+      <UniqueIdentifier>{201224a5-9b4f-4dbf-bc39-62b6d99e1ded}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
