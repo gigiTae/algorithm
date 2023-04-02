@@ -653,6 +653,9 @@
     <ClCompile Include="부분수열의 합2.cpp">
       <Filter>백준\투포인터</Filter>
     </ClCompile>
+    <ClCompile Include="냅색문제.cpp">
+      <Filter>백준\투포인터</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">

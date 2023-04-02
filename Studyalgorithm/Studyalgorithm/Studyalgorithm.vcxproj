@@ -168,6 +168,7 @@
     <ClCompile Include="나무자르기.cpp" />
     <ClCompile Include="나이순_정렬.cpp" />
     <ClCompile Include="나이트이동.cpp" />
+    <ClCompile Include="냅색문제.cpp" />
     <ClCompile Include="너의 평점은.cpp" />
     <ClCompile Include="네번째점.cpp" />
     <ClCompile Include="다리놓기.cpp" />
