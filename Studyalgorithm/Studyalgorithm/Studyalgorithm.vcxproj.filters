@@ -230,12 +230,6 @@
     <ClCompile Include="최소 힙.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
-    <ClCompile Include="치즈1.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="치즈2.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
     <ClCompile Include="카드2.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
@@ -288,12 +282,6 @@
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="피보나치cpp.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="ATM.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="N과M.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="OX퀴즈.cpp">
@@ -656,6 +644,42 @@
     <ClCompile Include="냅색문제.cpp">
       <Filter>백준\투포인터</Filter>
     </ClCompile>
+    <ClCompile Include="치즈1.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="치즈2.cpp">
+      <Filter>백준\그래프탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>백준\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M.cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%285%29.cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(6)cpp.cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M%287%29.cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(8).cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M(9).cpp">
+      <Filter>백준\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="여행가자.cpp">
+      <Filter>백준\유니온파인드</Filter>
+    </ClCompile>
+    <ClCompile Include="집합의 표현.cpp">
+      <Filter>백준\유니온파인드</Filter>
+    </ClCompile>
+    <ClCompile Include="친구네트워크.cpp">
+      <Filter>백준\유니온파인드</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">
@@ -713,6 +737,12 @@
     </Filter>
     <Filter Include="백준\백트래킹">
       <UniqueIdentifier>{201224a5-9b4f-4dbf-bc39-62b6d99e1ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\NewFilter1">
+      <UniqueIdentifier>{ad04054d-2aea-4446-87cb-8103fb1e981b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\유니온파인드">
+      <UniqueIdentifier>{2a8836a9-a5db-495d-acd8-347b4755adc1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
