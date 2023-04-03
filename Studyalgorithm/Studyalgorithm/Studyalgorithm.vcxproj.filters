@@ -680,6 +680,9 @@
     <ClCompile Include="친구네트워크.cpp">
       <Filter>백준\유니온파인드</Filter>
     </ClCompile>
+    <ClCompile Include="사이클 게임.cpp">
+      <Filter>백준\유니온파인드</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">

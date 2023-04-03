@@ -234,6 +234,7 @@
     <ClCompile Include="비트 연산자.cpp" />
     <ClCompile Include="빙산.cpp" />
     <ClCompile Include="빠른A+B.cpp" />
+    <ClCompile Include="사이클 게임.cpp" />
     <ClCompile Include="색종이.cpp" />
     <ClCompile Include="색종이만들기.cpp" />
     <ClCompile Include="서로 다른 부분 문자열 개수.cpp" />
