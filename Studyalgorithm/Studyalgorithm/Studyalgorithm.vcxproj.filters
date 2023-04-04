@@ -218,9 +218,6 @@
     <ClCompile Include="체스판 다시 칠하기 2.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
-    <ClCompile Include="체스판다시칠하기.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
     <ClCompile Include="최단경로.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
@@ -267,9 +264,6 @@
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="파도반수열.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="팩토리얼cpp.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="평균은_넘겠지.cpp">
@@ -437,12 +431,6 @@
     <ClCompile Include="분수찾기.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
-    <ClCompile Include="분해합.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="블랙잭.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
     <ClCompile Include="비트 연산자.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
@@ -459,9 +447,6 @@
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="서로 다른 부분 문자열 개수.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="설탕배달.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="섬의개수.cpp">
@@ -561,9 +546,6 @@
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="영수증.cpp">
-      <Filter>백준\etc</Filter>
-    </ClCompile>
-    <ClCompile Include="영화감독 숀.cpp">
       <Filter>백준\etc</Filter>
     </ClCompile>
     <ClCompile Include="오동큰수.cpp">
@@ -683,6 +665,36 @@
     <ClCompile Include="사이클 게임.cpp">
       <Filter>백준\유니온파인드</Filter>
     </ClCompile>
+    <ClCompile Include="회사에 있는 사람.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="문자와 문자열.cpp">
+      <Filter>백준\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="직사각형.cpp">
+      <Filter>백준\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="수학은 비대면강의입니다.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="블랙잭.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="분해합.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="체스판다시칠하기.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="팩토리얼cpp.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
+    <ClCompile Include="영화감독 숀.cpp">
+      <Filter>백준\브루트 포스</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">
@@ -741,11 +753,11 @@
     <Filter Include="백준\백트래킹">
       <UniqueIdentifier>{201224a5-9b4f-4dbf-bc39-62b6d99e1ded}</UniqueIdentifier>
     </Filter>
-    <Filter Include="백준\NewFilter1">
-      <UniqueIdentifier>{ad04054d-2aea-4446-87cb-8103fb1e981b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="백준\유니온파인드">
       <UniqueIdentifier>{2a8836a9-a5db-495d-acd8-347b4755adc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준\브루트 포스">
+      <UniqueIdentifier>{9e17124c-a265-4989-b439-a62630a41ec6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -211,6 +211,7 @@
     <ClCompile Include="문자열_반복.cpp" />
     <ClCompile Include="문자열집합.cpp" />
     <ClCompile Include="문자열폭발.cpp" />
+    <ClCompile Include="문자와 문자열.cpp" />
     <ClCompile Include="미로탐색.cpp" />
     <ClCompile Include="미확인 도착지.cpp" />
     <ClCompile Include="바보상수.cpp" />
@@ -252,6 +253,7 @@
     <ClCompile Include="수열.cpp" />
     <ClCompile Include="수정렬.cpp" />
     <ClCompile Include="수정렬하기3.cpp" />
+    <ClCompile Include="수학은 비대면강의입니다.cpp" />
     <ClCompile Include="숨바꼭질.cpp" />
     <ClCompile Include="숨바꼭질2cpp.cpp" />
     <ClCompile Include="숨바꼭질3.cpp" />
@@ -314,6 +316,7 @@
     <ClCompile Include="좌표정렬하기2.cpp" />
     <ClCompile Include="주유소.cpp" />
     <ClCompile Include="직각삼각형.cpp" />
+    <ClCompile Include="직사각형.cpp" />
     <ClCompile Include="직사각형에서 탈출.cpp" />
     <ClCompile Include="집합의 표현.cpp" />
     <ClCompile Include="체스판 다시 칠하기 2.cpp" />
@@ -355,6 +358,7 @@
     <ClCompile Include="행렬덧셈.cpp" />
     <ClCompile Include="행렬제곱.cpp" />
     <ClCompile Include="행렬최댓값.cpp" />
+    <ClCompile Include="회사에 있는 사람.cpp" />
     <ClCompile Include="회전하는 큐.cpp" />
   </ItemGroup>
   <ItemGroup>
