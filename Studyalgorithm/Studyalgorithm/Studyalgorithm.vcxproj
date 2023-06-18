@@ -136,6 +136,7 @@
     <ClCompile Include="ACM호텔.cpp" />
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="ATM.cpp" />
+    <ClCompile Include="CCW.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="DFS와BFS.cpp" />
     <ClCompile Include="emplace_back.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="N과 M(8).cpp" />
     <ClCompile Include="N과M%287%29.cpp" />
     <ClCompile Include="N과M(9).cpp" />
+    <ClCompile Include="OBB.cpp" />
     <ClCompile Include="OX퀴즈.cpp" />
     <ClCompile Include="RedBlackTree.cpp" />
     <ClCompile Include="RGB거리.cpp" />
@@ -239,6 +241,8 @@
     <ClCompile Include="색종이.cpp" />
     <ClCompile Include="색종이만들기.cpp" />
     <ClCompile Include="서로 다른 부분 문자열 개수.cpp" />
+    <ClCompile Include="선분 교차1.cpp" />
+    <ClCompile Include="선분교차2.cpp" />
     <ClCompile Include="설탕배달.cpp" />
     <ClCompile Include="섬의개수.cpp" />
     <ClCompile Include="세로읽기.cpp" />
