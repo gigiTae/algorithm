@@ -136,6 +136,7 @@
     <ClCompile Include="ACM호텔.cpp" />
     <ClCompile Include="ASCII.cpp" />
     <ClCompile Include="ATM.cpp" />
+    <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="CCW.cpp" />
     <ClCompile Include="CircleQueue.cpp" />
     <ClCompile Include="DFS와BFS.cpp" />
@@ -366,6 +367,7 @@
     <ClCompile Include="회전하는 큐.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="CircleQueue.h" />
     <ClInclude Include="RedBlackTree.h" />
   </ItemGroup>

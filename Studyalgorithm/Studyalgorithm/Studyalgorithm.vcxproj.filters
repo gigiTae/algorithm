@@ -707,6 +707,9 @@
     <ClCompile Include="선분교차2.cpp">
       <Filter>백준\수학</Filter>
     </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>자료구조\BubbleSort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleQueue.h">
@@ -714,6 +717,9 @@
     </ClInclude>
     <ClInclude Include="RedBlackTree.h">
       <Filter>자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>자료구조\BubbleSort</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -770,6 +776,9 @@
     </Filter>
     <Filter Include="백준\브루트 포스">
       <UniqueIdentifier>{9e17124c-a265-4989-b439-a62630a41ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자료구조\BubbleSort">
+      <UniqueIdentifier>{d5196434-3ac7-4a29-81a0-60de561f7137}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
